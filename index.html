@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Plan de lectura — Psicoanálisis Freud, Módulos 3 y 4</title>
+  <title>Psicoanálisis Freud · Plan de lectura</title>
+  <meta name="description" content="Plan de lectura interactivo para Psicoanálisis Freud - Cátedra Laznik (UBA).">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317182b'/%3E%3Cpath d='M18 13h22a6 6 0 0 1 6 6v32a3 3 0 0 1-3 3H21a7 7 0 0 1-7-7V17a4 4 0 0 1 4-4z' fill='%23f0b35b'/%3E%3Cpath d='M21 17h20a2 2 0 0 1 2 2v29H22a5 5 0 0 0-5 5V21a4 4 0 0 1 4-4z' fill='%23f4f2ec' opacity='.92'/%3E%3Cpath d='M24 25h13M24 32h13M24 39h10' stroke='%2317182b' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
   <style>
     :root {
       --bg: #0f1020; --panel: #17182b; --panel2: #20223a; --text: #f4f2ec;
@@ -38,6 +40,50 @@
       cursor: pointer; font-size: 16px;
     }
     .icon-btn:hover { border-color: var(--accent); color: var(--text); }
+    .github-link {
+      width: 34px;
+      height: 34px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(32,34,58,.9);
+      color: var(--muted);
+      text-decoration: none;
+      position: relative;
+    }
+    .github-link:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    .github-link svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+    .github-link::after {
+      content: "Ver proyecto en GitHub";
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      opacity: 0;
+      transform: translateY(-2px);
+      pointer-events: none;
+      transition: opacity .08s ease, transform .08s ease;
+      background: #252743;
+      color: var(--text);
+      border: 1px solid rgba(240,179,91,.35);
+      border-radius: 10px;
+      padding: 7px 9px;
+      font-size: 12px;
+      white-space: nowrap;
+      box-shadow: 0 10px 24px var(--shadow);
+      z-index: 30;
+    }
+    .github-link:hover::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
     .reset-wrap { position: relative; display: inline-grid; place-items: center; }
     .reset-tip {
       position: absolute; top: calc(100% + 8px); right: 0; opacity: 0; transform: translateY(-2px);
@@ -412,6 +458,11 @@
       document.getElementById("topProgress").innerHTML = `
         <span class="progress-pill">Progreso: <strong>${pct}%</strong></span>
         <span class="reset-wrap"><button class="icon-btn" id="resetBtn" aria-label="Resetear progreso">↺</button><span class="reset-tip">Resetear progreso</span></span>
+        <a class="github-link" href="https://github.com/javifernandes/psicoanalisis-freud-laznik-lectura-2do-parcial/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto en GitHub">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.64 0 8.13c0 3.59 2.29 6.63 5.47 7.71.4.08.55-.18.55-.39 0-.19-.01-.83-.01-1.51-2.01.38-2.53-.5-2.69-.96-.09-.23-.48-.96-.82-1.15-.28-.15-.68-.52-.01-.53.63-.01 1.08.59 1.23.83.72 1.23 1.87.88 2.33.67.07-.53.28-.88.51-1.09-1.78-.21-3.64-.9-3.64-4.01 0-.89.31-1.61.82-2.18-.08-.21-.36-1.04.08-2.15 0 0 .67-.22 2.2.83A7.43 7.43 0 0 1 8 3.93c.68 0 1.36.09 2 .27 1.53-1.05 2.2-.83 2.2-.83.44 1.11.16 1.94.08 2.15.51.57.82 1.29.82 2.18 0 3.12-1.87 3.8-3.65 4.01.29.25.54.75.54 1.52 0 1.1-.01 1.98-.01 2.25 0 .21.15.47.55.39A8.04 8.04 0 0 0 16 8.13C16 3.64 12.42 0 8 0z"/>
+          </svg>
+        </a>
       `;
       document.getElementById("resetBtn").addEventListener("click", () => {
         if (confirm("¿Borrar el progreso guardado en este navegador?")) {
