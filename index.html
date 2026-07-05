@@ -311,13 +311,32 @@
     }
     .guide-tree { padding: 14px; }
     .guide-module + .guide-module { margin-top: 18px; }
+    .guide-module,
+    .guide-block {
+      border-radius: 12px;
+    }
+    .guide-module > summary,
+    .guide-block > summary,
+    .raw-guide-details > summary {
+      cursor: pointer;
+      list-style: none;
+    }
+    .guide-module > summary::-webkit-details-marker,
+    .guide-block > summary::-webkit-details-marker,
+    .raw-guide-details > summary::-webkit-details-marker {
+      display: none;
+    }
     .guide-module-title {
       margin: 0 0 10px;
       color: var(--text);
       font-size: 15px;
       line-height: 1.25;
+      display: grid;
+      grid-template-columns: 16px 1fr;
+      gap: 6px;
+      align-items: start;
     }
-    .guide-module-title span {
+    .guide-module-label {
       display: block;
       color: var(--accent);
       font-size: 12px;
@@ -325,7 +344,23 @@
       letter-spacing: .04em;
       margin-bottom: 2px;
     }
-    .guide-block { margin-top: 12px; }
+    .guide-disclosure {
+      color: var(--accent);
+      transform: rotate(0deg);
+      transition: transform .12s ease;
+      line-height: 1.2;
+    }
+    .guide-module[open] > summary .guide-disclosure,
+    .guide-block[open] > summary .guide-disclosure,
+    .raw-guide-details[open] > summary .guide-disclosure {
+      transform: rotate(90deg);
+    }
+    .guide-block {
+      margin-top: 12px;
+      margin-left: 14px;
+      padding-left: 10px;
+      border-left: 1px solid rgba(240,179,91,.18);
+    }
     .guide-block-title {
       color: var(--muted);
       font-size: 12px;
@@ -333,6 +368,10 @@
       margin: 0 0 6px;
       text-transform: uppercase;
       letter-spacing: .04em;
+      display: grid;
+      grid-template-columns: 16px 1fr;
+      gap: 5px;
+      align-items: center;
     }
     .guide-topic-btn {
       width: 100%;
@@ -346,12 +385,22 @@
       font: inherit;
       font-size: 13px;
       line-height: 1.25;
+      margin-left: 18px;
+      width: calc(100% - 18px);
     }
     .guide-topic-btn:hover { color: var(--text); border-color: rgba(240,179,91,.22); }
     .guide-topic-btn.active {
       color: var(--text);
       background: rgba(32,34,58,.9);
       border-color: rgba(240,179,91,.34);
+    }
+    .guide-topic-label { display: block; font-weight: 750; }
+    .guide-topic-long {
+      display: block;
+      color: rgba(184,182,202,.74);
+      font-size: 11.5px;
+      margin-top: 3px;
+      line-height: 1.25;
     }
     .guide-detail { padding: 20px; }
     .guide-kicker {
@@ -382,7 +431,22 @@
     .linked-meta { color: var(--muted); font-size: 12px; margin-top: 3px; }
     .linked-state { color: var(--muted); font-size: 12px; white-space: nowrap; }
     .linked-reading.done .linked-title { color: rgba(244,242,236,.72); }
-    .raw-guide-text { white-space: pre-wrap; color: var(--muted); font-size: 13px; }
+    .raw-guide-details {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(32,34,58,.42);
+      padding: 10px 12px;
+    }
+    .raw-guide-details summary {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 850;
+      display: grid;
+      grid-template-columns: 16px 1fr;
+      gap: 6px;
+      align-items: center;
+    }
+    .raw-guide-text { white-space: pre-wrap; color: var(--muted); font-size: 13px; margin-top: 10px; }
 
     @media (max-width: 980px) {
       body { overflow: auto; height: auto; }
@@ -441,6 +505,7 @@
     let hideRepeats = JSON.parse(localStorage.getItem("freud-hide-repeats") || "false");
     let hideRead = JSON.parse(localStorage.getItem("freud-hide-read") || "false");
     let activeGuideTopic = localStorage.getItem("freud-active-guide-topic") || "";
+    let guideOpen = JSON.parse(localStorage.getItem("freud-guide-open") || "{}");
     let searchQuery = "";
     let columnScroll = {};
 
@@ -861,23 +926,27 @@
       activeGuideTopic = selected.topic.id;
       const linked = findLinkedReadings(selected.topic);
       const linkedDone = linked.filter(r => isChecked(r, r.i)).length;
+      const isGuideOpen = (key) => guideOpen[key] !== false;
       app.innerHTML = `
         <div class="guide-view">
           <aside class="guide-tree" aria-label="Árbol de guías">
             ${guides.map(guide => `
-              <div class="guide-module">
-                <h2 class="guide-module-title"><span>${escapeHtml(guide.label)}</span>${escapeHtml(guide.title)}</h2>
+              <details class="guide-module" data-guide-open-key="module:${escapeHtml(guide.id)}" ${isGuideOpen(`module:${guide.id}`) ? "open" : ""}>
+                <summary>
+                  <h2 class="guide-module-title"><span class="guide-disclosure">›</span><span><span class="guide-module-label">${escapeHtml(guide.label)}</span>${escapeHtml(guide.title)}</span></h2>
+                </summary>
                 ${guide.blocks.map(block => `
-                  <div class="guide-block">
-                    <h3 class="guide-block-title">${escapeHtml(block.label)}</h3>
+                  <details class="guide-block" data-guide-open-key="block:${escapeHtml(guide.id)}:${escapeHtml(block.id)}" ${isGuideOpen(`block:${guide.id}:${block.id}`) ? "open" : ""}>
+                    <summary><h3 class="guide-block-title"><span class="guide-disclosure">›</span><span>${escapeHtml(block.label)}</span></h3></summary>
                     ${block.topics.map(topic => `
                       <button class="guide-topic-btn ${topic.id === selected.topic.id ? 'active' : ''}" data-topic-id="${escapeHtml(topic.id)}">
-                        ${escapeHtml(topic.label)}
+                        <span class="guide-topic-label">${escapeHtml(topic.label)}</span>
+                        ${topic.title && topic.title !== topic.label ? `<span class="guide-topic-long">${escapeHtml(topic.title)}</span>` : ""}
                       </button>
                     `).join("")}
-                  </div>
+                  </details>
                 `).join("")}
-              </div>
+              </details>
             `).join("")}
           </aside>
           <section class="guide-detail" aria-live="polite">
@@ -920,13 +989,21 @@
             </div>
             ${selected.topic.rawGuideText ? `
               <div class="guide-section">
-                <p class="guide-section-title">Texto guía</p>
-                <div class="raw-guide-text">${escapeHtml(selected.topic.rawGuideText)}</div>
+                <details class="raw-guide-details" open>
+                  <summary><span class="guide-disclosure">›</span><span>Texto fiel de la guía de cátedra</span></summary>
+                  <div class="raw-guide-text">${escapeHtml(selected.topic.rawGuideText)}</div>
+                </details>
               </div>
             ` : ""}
           </section>
         </div>
       `;
+      document.querySelectorAll("[data-guide-open-key]").forEach(el => {
+        el.addEventListener("toggle", e => {
+          guideOpen[e.currentTarget.dataset.guideOpenKey] = e.currentTarget.open;
+          localStorage.setItem("freud-guide-open", JSON.stringify(guideOpen));
+        });
+      });
       document.querySelectorAll(".guide-topic-btn").forEach(btn => {
         btn.addEventListener("click", () => {
           activeGuideTopic = btn.dataset.topicId;

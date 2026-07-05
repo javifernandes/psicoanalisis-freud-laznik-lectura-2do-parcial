@@ -1,74 +1,80 @@
 {
   "id": "module4",
   "label": "Módulo 4",
-  "title": "Represión, inconsciente, transferencia, ganancia de la enfermedad, angustia",
+  "title": "Represión, inconciente, transferencia, ganancia de la enfermedad, angustia",
   "blocks": [
     {
       "id": "theory",
       "label": "Teóricos",
-      "title": "Puntos 9, 10, 11 y 12: Represión, inconsciente, transferencia y ganancia de la enfermedad",
+      "title": "Puntos 9, 10 y 12. La concepción dinámica del inconciente. Inconciente y represión. Transferencia: motor y obstáculo",
       "topics": [
         {
-          "id": "m4-t-represion",
-          "label": "La represión",
-          "title": "La represión",
-          "eje": "Represión primordial, represión propiamente dicha y retorno de lo reprimido.",
+          "id": "m4-t-punto9",
+          "label": "Punto 9",
+          "title": "La concepción dinámica del Inconciente: todo lo reprimido es inconciente",
+          "eje": "Represión primordial, represión propiamente dicha, fijación, regresión y retorno de lo reprimido.",
           "points": [
-            "Representante psíquico",
-            "Mociones pulsionales",
-            "Monto de afecto",
-            "Contracarga"
+            "Necesidad de introducir el concepto de represión primordial",
+            "Represión propiamente dicha",
+            "Fijación y regresión",
+            "El asesinato del padre como referente mítico de la represión",
+            "Represión e inconciente como términos correlativos"
           ],
           "readingRefs": [
             {
               "title": "La represión"
-            }
-          ]
-        },
-        {
-          "id": "m4-t-icc-iii",
-          "label": "Lo inconsciente III",
-          "title": "Lo inconsciente, III: Sentimientos inconscientes",
-          "eje": "Problema de los sentimientos inconscientes.",
-          "points": [
-            "Representación",
-            "Afecto",
-            "Inconsciente dinámico"
-          ],
-          "readingRefs": [
+            },
             {
               "title": "Lo inconsciente, III: Sentimientos inconscientes"
+            },
+            {
+              "title": "Tótem y tabú, IV, puntos 5 y 6"
             }
-          ]
+          ],
+          "rawGuideText": "Punto 9: La concepción dinámica del Inconciente: todo lo reprimido es inconciente\n\nEjes conceptuales articuladores:\na. Necesidad de introducir el concepto de  Represión primordial, (modificación del término defensa en la época de Estudios sobre la Histeria): denegación de la admisión en lo conciente.\n¿Qué se sustrae en la represión primaria? – Relaciones con el núcleo patógeno y el ombligo del sueño.\nEn la Conferencia 9ª. Pag. 135. “Así lo Inconciente adquiere para nosotros un nuevo sentido”…\nb. Represión propiamente dicha. (Importancia de la traducción: representante y no “agencia” de acuerdo a la ficha de la cátedra. Pos-represión en Análisis terminable e interminable” (1937)\nc. Fijación y regresión en la Conferencia 22: El fracaso en la represión. Retorno de lo reprimido.\nd. El asesinato del padre como referente mítico de la represión (Pag.143 a 147 de Tótem y Tabú)  El padre de la horda. El padre muerto y la “obediencia retrospectiva”. La incorporación oral del padre, la función del Ideal y la Identificación primaria (relación con el Cap.VII de Psicología de las masas y análisis del Yo). La conciencia de culpa en el varón (anticipo del sentimiento inconciente de culpa y la necesidad de castigo).\n\nAspectos a desarrollar:\n\nMudanza del placer de satisfacción en displacer. El dolor imperativo, un anticipo del mas allá.\nLa represión como mecanismo no presente desde el origen.\nLa represión como mecanismo de defensa: ¿cuándo se engendra y en qué consiste?\nRepresión e Inconciente: su correlatividad.\nRepresión primordial: primera fase de la represión.\nLa fijación: Dos operaciones diferentes: atracción y repulsión. “Algo reprimido desde antes”: lo que queda abajo, lo Unterdrückt como Vorstellungsrepräsentanz.\nEl retorno, “lo que nunca se supo” (6ª y 9ª Conferencias).  La represión individual y móvil (relación con lo no reconocido en los sueños: el ombligo como causa).\nEl mito del padre de la horda como figurabilidad para sostener el concepto de Represión primordial.\nEl banquete totémico.  La referencia al animal totémico como sustituto del padre.  Sus dos preceptos a la luz del Complejo de Edipo.  El lugar del padre muerto como incorporación e inscripción. El padre muerto: un lugar vacío como efecto de una pérdida originaria de satisfacción. Relación con la Identificación primaria a partir del cap. VII de  “Psicología de las masas…”.\nLa conciencia de culpa en el varón: anticipación del sentimiento inconciente de culpa y necesidad de castigo."
         },
         {
-          "id": "m4-t-icc",
-          "label": "Lo inconsciente",
-          "title": "Lo inconsciente, caps. II, IV, V, VI, VII",
-          "eje": "Punto de vista tópico, propiedades del sistema Icc y representación-cosa/palabra.",
+          "id": "m4-t-punto10",
+          "label": "Punto 10",
+          "title": "Lo inconciente: “lo que nunca se supo”",
+          "eje": "Concepción dinámica del inconciente, sustracción de investidura y representación-cosa / representación-palabra.",
           "points": [
-            "Multivocidad",
-            "Tópica",
-            "Contrainvestidura",
-            "Representación cosa",
-            "Representación palabra"
+            "Todo lo reprimido es inconciente",
+            "Sustracción de la investidura a la representación",
+            "El representante de la representación",
+            "Propiedades del sistema Icc",
+            "Retoños del Icc y formaciones sustitutivas",
+            "Representación-cosa, representación-palabra y representación-objeto"
           ],
           "readingRefs": [
             {
               "title": "Lo inconsciente, caps. II, IV, V, VI, VII"
+            },
+            {
+              "title": "Conferencias 6 y 9"
+            },
+            {
+              "title": "Conferencias 22 y 23"
+            },
+            {
+              "title": "Pulsiones y destinos de pulsión",
+              "pages": "121–122"
             }
-          ]
+          ],
+          "rawGuideText": "Punto 10: Lo inconciente: “lo que nunca se supo”\n\nEjes conceptuales articuladores:\n\nConcepción dinámica del Inconciente: todo lo reprimido es icc.\nSustracción de la investidura a la representación: los tiempos de la represión.\nEl representante de la representación.\nRepresentación-cosa, Representación-palabra  (relación con el punto E en el cap. VII de la “Interpretación de los sueños”. Proceso primario y secundario.\n\nAspectos a desarrollar:\n\nEl mecanismo de la Represión primaria.\nLas propiedades del sistema Icc.\nLos retoños del Icc.  Las formaciones sustitutivas.  La censura. Diferenciación entre investidura pulsional como representación y afecto.\nEl núcleo del Icc. Características del proceso primario. Representación-cosa, representación-palabra y representación-objeto.  Relacionar con la Carta 52 y el punto E. en el cap. VII de la Interpretación de los sueños.\nEl fracaso de la defensa."
         },
         {
-          "id": "m4-t-transferencia",
-          "label": "Transferencia",
-          "title": "Sobre la dinámica de la transferencia / Amor de transferencia / Conferencia 27",
-          "eje": "Transferencia como motor y obstáculo de la cura.",
+          "id": "m4-t-punto12",
+          "label": "Punto 12",
+          "title": "Las transferencias freudianas",
+          "eje": "Desarrollo del concepto de transferencia en relación con tres momentos de la clínica freudiana.",
           "points": [
-            "Transferencia positiva/negativa",
-            "Resistencia",
-            "Abstinencia",
-            "Lugar del analista"
+            "Hacer conciente lo inconciente y arte de la interpretación",
+            "Transferencia como motor y obstáculo",
+            "El analista incluido en la serie del objeto",
+            "Detención de las asociaciones y resistencia",
+            "Campo de la transferencia",
+            "Amor de transferencia, abstinencia e interpretación"
           ],
           "readingRefs": [
             {
@@ -80,60 +86,53 @@
             {
               "title": "27ª conferencia: La transferencia"
             }
-          ]
+          ],
+          "rawGuideText": "Punto 12:  Las transferencias freudianas\n\nAnticipaciones: Ubicar el desarrollo del concepto en relación a los tres momentos de la clínica freudiana.\n\nHacer conciente lo inconciente,  el arte de la interpretación.\n\nAna O., la talking cure, raport sugestivo no analizado.\nEl analista como obstáculo externo, falso enlace.\nSueños: transferencia en relación al resto diurno.\n   Dora: transferencia como reedición, actúa en lugar de recordar.\n\nb.    Cierre del Inconciente, se manifiesta la resistencia.  Escritos técnicos intentan dar respuesta a las dificultades de la práctica.\n\nDesarrollo de los conceptos:\n\nTransferencia: motor y obstáculo.\nEl analista incluido en la serie del objeto de la elección de objeto.  Condiciones del amor.  Neurosis de transferencia.  Neurosis narcisistas.  Articulación del concepto de transferencia con la vida amorosa  (Introducción del narcisismo).\nDetención de las asociaciones: idea transferencial: despunta la resistencia.\nCampo de batalla donde se libran los conflictos; campo de la transferencia, su vínculo con la resistencia.  Los tres momentos: detención de las asociaciones, surgimiento del analista y reanudación de las asociaciones.\nLa repetición como límite al recuerdo.\nNada puede ser destruido in absentia o in efigie.\nEl amor de transferencia: un amor genuino del que se sirve la resistencia.\nAbstinencia e interpretación."
         },
         {
-          "id": "m4-t-recordar",
-          "label": "Recordar, repetir",
-          "title": "Recordar, repetir, reelaborar",
-          "eje": "Límite del recuerdo y repetición en acto.",
+          "id": "m4-t-resistencia-transferencia",
+          "label": "Resistencia",
+          "title": "La resistencia al levantamiento de la resistencia",
+          "eje": "Del recordar a la compulsión a repetir; el agieren al servicio de la resistencia.",
           "points": [
-            "Agieren",
-            "Neurosis de transferencia",
-            "Reelaboración"
+            "Anticipaciones al más allá",
+            "Reformulación de la caída de la teoría del recuerdo",
+            "Del recordar a la compulsión a repetir",
+            "Sustitución de neurosis ordinaria por neurosis de transferencia",
+            "Límites de la interpretación"
           ],
           "readingRefs": [
             {
               "title": "Recordar, repetir, reelaborar"
             }
-          ]
+          ],
+          "rawGuideText": "La resistencia al levantamiento de la resistencia\n\nAnticipaciones al mas allá.\nReformulación de la caída de la teoría del recuerdo (recuerdo actual, recuerdo encubridor).\n¿Qué se recuerda?\nDel recordar a la compulsión a repetir, el agieren al servicio de la resistencia.\nSustitución de neurosis ordinaria por la neurosis de transferencia.\n   Los límites de la interpretación: “un amor recalcitrante e indócil”.  El anticipo de la compulsión de repetición (Cap.III de Mas allá…)"
         }
-      ]
+      ],
+      "rawGuideText": "TEORICOS\n\nPuntos 9, 10 y 12 del programa\n\nPunto 9: La concepción dinámica del Inconciente: todo lo reprimido es inconciente\n\nEjes conceptuales articuladores:\na. Necesidad de introducir el concepto de  Represión primordial, (modificación del término defensa en la época de Estudios sobre la Histeria): denegación de la admisión en lo conciente.\n¿Qué se sustrae en la represión primaria? – Relaciones con el núcleo patógeno y el ombligo del sueño.\nEn la Conferencia 9ª. Pag. 135. “Así lo Inconciente adquiere para nosotros un nuevo sentido”…\nb. Represión propiamente dicha. (Importancia de la traducción: representante y no “agencia” de acuerdo a la ficha de la cátedra. Pos-represión en Análisis terminable e interminable” (1937)\nc. Fijación y regresión en la Conferencia 22: El fracaso en la represión. Retorno de lo reprimido.\nd. El asesinato del padre como referente mítico de la represión (Pag.143 a 147 de Tótem y Tabú)  El padre de la horda. El padre muerto y la “obediencia retrospectiva”. La incorporación oral del padre, la función del Ideal y la Identificación primaria (relación con el Cap.VII de Psicología de las masas y análisis del Yo). La conciencia de culpa en el varón (anticipo del sentimiento inconciente de culpa y la necesidad de castigo).\n\nAspectos a desarrollar:\n\nMudanza del placer de satisfacción en displacer. El dolor imperativo, un anticipo del mas allá.\nLa represión como mecanismo no presente desde el origen.\nLa represión como mecanismo de defensa: ¿cuándo se engendra y en qué consiste?\nRepresión e Inconciente: su correlatividad.\nRepresión primordial: primera fase de la represión.\nLa fijación: Dos operaciones diferentes: atracción y repulsión. “Algo reprimido desde antes”: lo que queda abajo, lo Unterdrückt como Vorstellungsrepräsentanz.\nEl retorno, “lo que nunca se supo” (6ª y 9ª Conferencias).  La represión individual y móvil (relación con lo no reconocido en los sueños: el ombligo como causa).\nEl mito del padre de la horda como figurabilidad para sostener el concepto de Represión primordial.\nEl banquete totémico.  La referencia al animal totémico como sustituto del padre.  Sus dos preceptos a la luz del Complejo de Edipo.  El lugar del padre muerto como incorporación e inscripción. El padre muerto: un lugar vacío como efecto de una pérdida originaria de satisfacción. Relación con la Identificación primaria a partir del cap. VII de  “Psicología de las masas…”.\nLa conciencia de culpa en el varón: anticipación del sentimiento inconciente de culpa y necesidad de castigo.\n\nPunto 10: Lo inconciente: “lo que nunca se supo”\n\nEjes conceptuales articuladores:\n\nConcepción dinámica del Inconciente: todo lo reprimido es icc.\nSustracción de la investidura a la representación: los tiempos de la represión.\nEl representante de la representación.\nRepresentación-cosa, Representación-palabra  (relación con el punto E en el cap. VII de la “Interpretación de los sueños”. Proceso primario y secundario.\n\nAspectos a desarrollar:\n\nEl mecanismo de la Represión primaria.\nLas propiedades del sistema Icc.\nLos retoños del Icc.  Las formaciones sustitutivas.  La censura. Diferenciación entre investidura pulsional como representación y afecto.\nEl núcleo del Icc. Características del proceso primario. Representación-cosa, representación-palabra y representación-objeto.  Relacionar con la Carta 52 y el punto E. en el cap. VII de la Interpretación de los sueños.\nEl fracaso de la defensa.\n\nPunto 12:  Las transferencias freudianas\n\nAnticipaciones: Ubicar el desarrollo del concepto en relación a los tres momentos de la clínica freudiana.\n\nHacer conciente lo inconciente,  el arte de la interpretación.\n\nAna O., la talking cure, raport sugestivo no analizado.\nEl analista como obstáculo externo, falso enlace.\nSueños: transferencia en relación al resto diurno.\n   Dora: transferencia como reedición, actúa en lugar de recordar.\n\nb.    Cierre del Inconciente, se manifiesta la resistencia.  Escritos técnicos intentan dar respuesta a las dificultades de la práctica.\n\nDesarrollo de los conceptos:\n\nTransferencia: motor y obstáculo.\nEl analista incluido en la serie del objeto de la elección de objeto.  Condiciones del amor.  Neurosis de transferencia.  Neurosis narcisistas.  Articulación del concepto de transferencia con la vida amorosa  (Introducción del narcisismo).\nDetención de las asociaciones: idea transferencial: despunta la resistencia.\nCampo de batalla donde se libran los conflictos; campo de la transferencia, su vínculo con la resistencia.  Los tres momentos: detención de las asociaciones, surgimiento del analista y reanudación de las asociaciones.\nLa repetición como límite al recuerdo.\nNada puede ser destruido in absentia o in efigie.\nEl amor de transferencia: un amor genuino del que se sirve la resistencia.\nAbstinencia e interpretación.\n\nLa resistencia al levantamiento de la resistencia\n\nAnticipaciones al mas allá.\nReformulación de la caída de la teoría del recuerdo (recuerdo actual, recuerdo encubridor).\n¿Qué se recuerda?\nDel recordar a la compulsión a repetir, el agieren al servicio de la resistencia.\nSustitución de neurosis ordinaria por la neurosis de transferencia.\n   Los límites de la interpretación: “un amor recalcitrante e indócil”.  El anticipo de la compulsión de repetición (Cap.III de Mas allá…)"
     },
     {
       "id": "seminar",
       "label": "Seminarios",
-      "title": "Puntos VI y VII: Formación de síntoma, ganancia de la enfermedad y angustia",
+      "title": "Puntos VI y VII. Ganancia de la enfermedad. 2º versión de la teoría de la angustia.",
       "topics": [
         {
-          "id": "m4-s-conf23",
-          "label": "Conferencia 23",
-          "title": "Los caminos de la formación de síntoma",
-          "eje": "Síntoma como satisfacción sustitutiva.",
+          "id": "m4-s-punto6-conf23",
+          "label": "Punto VI",
+          "title": "Conferencia 23: Los caminos de formación de síntoma",
+          "eje": "La ganancia de la enfermedad como modo de satisfacción que el yo vive como padecimiento.",
           "points": [
-            "Fijación",
-            "Regresión",
-            "Ganancia de la enfermedad",
-            "Fantasías primordiales"
+            "Síntoma y fantasía",
+            "Regresión, fijación y represión",
+            "Síntoma como modalidad de satisfacción pulsional",
+            "Fijaciones como lugares para quebrantar represiones",
+            "Series complementarias",
+            "Realidad psíquica y fantasías primordiales"
           ],
           "readingRefs": [
             {
               "title": "23ª conferencia: Los caminos de la formación de síntoma"
-            }
-          ]
-        },
-        {
-          "id": "m4-s-conf17-19",
-          "label": "Conferencias 17–19",
-          "title": "Sentido de los síntomas, fijación al trauma, resistencia y represión",
-          "eje": "Síntoma, trauma y resistencia.",
-          "points": [
-            "Sentido del síntoma",
-            "Fijación",
-            "Inconsciente",
-            "Resistencia"
-          ],
-          "readingRefs": [
+            },
             {
               "title": "17ª conferencia: El sentido de los síntomas"
             },
@@ -143,127 +142,256 @@
             {
               "title": "19ª conferencia: Resistencia y represión"
             }
-          ]
+          ],
+          "rawGuideText": "Punto VI:  Conferencia 23: Los caminos de formación de síntoma\n\nEje a desarrollar: La ganancia de la enfermedad (un modo de satisfacción que el Yo vive como padecimiento).\n\nConceptos a articular: Síntoma\n                                        Fantasía\n\nSe retoma y se despliega el reordenamiento de la serie etiológica del síntoma ya planteado en Mis tesis… (incluyendo a la fantasía), como fundamento de la causación de la neurosis.\n\nArticuladores:   Regresión\n                            Fijación\n                            Represión\n\nPuntos a desarrollar\n\nLa no equivalencia entre síntoma y enfermedad.\nDisposición a la neurosis como lo que resta tras la supresión de síntomas.\nEl síntoma como nueva modalidad de satisfacción pulsional, vale como formación de compromiso entre la libido y el Yo.\nRegresión a puntos de fijación como soporte para la satisfacción.\nLas fijaciones como lugares que encuentra la libido para quebrantar las represiones.\nRelación entre el síntoma y el sueño.\nImportancia de las prácticas y vivencias de la infancia para la fijación libidinal.\nRelación de complementareidad entre las vivencias infantiles y las vivencias tardías.\nSeries complementarias entre: la disposición constitucional (vivencias heredadas) y el vivenciar infantil, que hace a la predisposición por fijación libidinal, y el vivenciar accidental del adulto.\nValor que se agrega por regresión al vivenciar infantil.\nEl valor de verdad histórica de las vivencias infantiles: la realidad psíquica.\nLas “fantasías primordiales” (seducción, castración y escena primaria) patrimonio indispensable de las neurosis como lo que llena las lagunas de la verdad individual con una verdad prehistórica.\nDiferencia entre sueño diurno y fantasía inconciente.\nLa fantasía como eslabón intermedio entre la regresión y la formación de síntomas  (recordar Mis tesis… e Introducción al narcisismo).\nImportancia del punto de vista económico.\n\nReferente clínico: Conferencias XVIII y XIX: “la falla de un ceremonial del dormir”"
         },
         {
-          "id": "m4-s-angustia",
-          "label": "Angustia",
-          "title": "Sobre el psicoanálisis silvestre / 25ª conferencia: La angustia",
-          "eje": "Angustia y libido no aplicada.",
+          "id": "m4-s-punto7-angustia",
+          "label": "Punto VII",
+          "title": "La 2ª versión de la teoría de la angustia",
+          "eje": "La angustia como punto nodal en las neurosis de transferencia, sostenida en la pulsión y articulada por la vía de la represión.",
           "points": [
-            "Libido no aplicada",
-            "Angustia infantil",
-            "Represión",
-            "Segunda teoría de la angustia"
+            "Angustia, pulsión, teoría de la libido y represión",
+            "Causación de la neurosis",
+            "Inclusión de la angustia en el campo de lo psíquico",
+            "Angustia surgida de la represión",
+            "Libido no aplicada"
           ],
           "readingRefs": [
             {
               "title": "Sobre el psicoanálisis silvestre"
             },
             {
+              "title": "La represión"
+            },
+            {
               "title": "25ª conferencia: La angustia"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "practice",
-      "label": "Prácticos",
-      "title": "Puntos V y VI: Inconsciente, represión y técnica",
-      "topics": [
+          ],
+          "rawGuideText": "Punto VII: La 2ª versión de la teoría de la angustia\n\nEje\nLa angustia como punto nodal en las neurosis de transferencia, sostenida en la pulsión y articulada al aparato de representaciones por la vía de la represión.\n\nArticulación conceptual\nAngustia – Pulsión - Teoría de la libido – Represión – Causación de la neurosis.\n\nSobre el psicoanálisis silvestre\n\nEje conceptual: La inclusión de la angustia en el campo de lo psíquico.\n\nPuntos a desarrollar:\n\nPasaje de la “tensión sexual somática” a la “psicosexualidad”.\n\nLa insatisfacción sexual encuentra su rango conceptual en los síntomas neuróticos: el conflicto entre la libido y la represión.\n\nLa represión\n\nEje conceptual: La angustia surge de la represión: la libido reprimida se “transpone” en angustia\n\nPuntos a desarrollar\n\nA partir de la inclusión de la pulsión vía fijación, se acentúa por el destino del monto de afecto (residuo) el fracaso de la represión en evitar displacer.\nTransposición de las energías psíquicas en afectos, en particular en angustia.\nTres destinos del monto de afecto: sofocado – coloreado cualitativamente – mudado en angustia.\nSe acentúa la sustracción de la investidura energética o libido en las tres neurosis a partir de la represión, y la diferencia en el modo en que se produce la sustitución:\nEn la histeria de angustia, radicalmente fracasada.\nEn la histeria de conversión, la porción del representante, por condensación atrae hacia sí la investidura íntegra, único caso de formación de síntoma con desprendimiento de angustia ocasionales.\nEn la neurosis obsesiva: represión de un impulso hostil hacia una persona amada, formación reactiva como formación sustitutiva, y la sobreinvestidura del zwang.\n\n25ª Conferencia: La angustia\n\nEje conceptual: La libido no aplicada.\n\nPuntos a desarrollar:\n\nEl lugar del extraño en el desarrollo de angustia del niño: la imposibilidad para aplicar la libido.\nDesengaño y añoranza, su transposición en angustia.\nLa libido no aplicada: correlato de la represión (articular con la “sustracción de investidura” en Lo inconciente).\nLa libido como peligro para el Yo.\nLa importancia del destino del monto de afecto en el proceso represivo.\nRelación entre el desarrollo de angustia y el sistema inconciente.\nRelación entre contrainvestidura y angustia."
+        },
         {
-          "id": "m4-p-nota",
-          "label": "Nota sobre inconsciente",
-          "title": "Nota sobre el concepto de lo inconsciente en psicoanálisis",
-          "eje": "Inconsciente descriptivo, dinámico y sistemático.",
+          "id": "m4-s-psicoanalisis-silvestre",
+          "label": "Psicoanálisis silvestre",
+          "title": "Sobre el psicoanálisis silvestre",
+          "eje": "La inclusión de la angustia en el campo de lo psíquico.",
           "points": [
-            "Descriptivo",
-            "Dinámico",
-            "Sistemático"
+            "Pasaje de la tensión sexual somática a la psicosexualidad",
+            "Insatisfacción sexual y síntomas neuróticos",
+            "Conflicto entre libido y represión"
           ],
           "readingRefs": [
             {
-              "title": "Nota sobre el concepto de lo inconsciente en psicoanálisis"
+              "title": "Sobre el psicoanálisis silvestre"
             }
-          ]
+          ],
+          "rawGuideText": "Sobre el psicoanálisis silvestre\n\nEje conceptual: La inclusión de la angustia en el campo de lo psíquico.\n\nPuntos a desarrollar:\n\nPasaje de la “tensión sexual somática” a la “psicosexualidad”.\n\nLa insatisfacción sexual encuentra su rango conceptual en los síntomas neuróticos: el conflicto entre la libido y la represión."
         },
         {
-          "id": "m4-p-represion",
+          "id": "m4-s-represion-angustia",
           "label": "La represión",
           "title": "La represión",
-          "eje": "Metapsicología de la defensa.",
+          "eje": "La angustia surge de la represión: la libido reprimida se transpone en angustia.",
           "points": [
-            "Represión primordial",
-            "Represión propiamente dicha",
-            "Retorno de lo reprimido"
+            "Fracaso de la represión en evitar displacer",
+            "Transposición de energías psíquicas en afectos",
+            "Tres destinos del monto de afecto",
+            "Diferencias entre histeria de angustia, conversión y neurosis obsesiva"
           ],
           "readingRefs": [
             {
               "title": "La represión"
             }
-          ]
+          ],
+          "rawGuideText": "La represión\n\nEje conceptual: La angustia surge de la represión: la libido reprimida se “transpone” en angustia\n\nPuntos a desarrollar\n\nA partir de la inclusión de la pulsión vía fijación, se acentúa por el destino del monto de afecto (residuo) el fracaso de la represión en evitar displacer.\nTransposición de las energías psíquicas en afectos, en particular en angustia.\nTres destinos del monto de afecto: sofocado – coloreado cualitativamente – mudado en angustia.\nSe acentúa la sustracción de la investidura energética o libido en las tres neurosis a partir de la represión, y la diferencia en el modo en que se produce la sustitución:\nEn la histeria de angustia, radicalmente fracasada.\nEn la histeria de conversión, la porción del representante, por condensación atrae hacia sí la investidura íntegra, único caso de formación de síntoma con desprendimiento de angustia ocasionales.\nEn la neurosis obsesiva: represión de un impulso hostil hacia una persona amada, formación reactiva como formación sustitutiva, y la sobreinvestidura del zwang."
+        },
+        {
+          "id": "m4-s-conf25",
+          "label": "Conferencia 25",
+          "title": "25ª Conferencia: La angustia",
+          "eje": "La libido no aplicada.",
+          "points": [
+            "Lugar del extraño en la angustia del niño",
+            "Desengaño y añoranza",
+            "Libido no aplicada como correlato de la represión",
+            "Libido como peligro para el yo",
+            "Relación entre angustia, inconciente y contrainvestidura"
+          ],
+          "readingRefs": [
+            {
+              "title": "25ª conferencia: La angustia"
+            }
+          ],
+          "rawGuideText": "25ª Conferencia: La angustia\n\nEje conceptual: La libido no aplicada.\n\nPuntos a desarrollar:\n\nEl lugar del extraño en el desarrollo de angustia del niño: la imposibilidad para aplicar la libido.\nDesengaño y añoranza, su transposición en angustia.\nLa libido no aplicada: correlato de la represión (articular con la “sustracción de investidura” en Lo inconciente).\nLa libido como peligro para el Yo.\nLa importancia del destino del monto de afecto en el proceso represivo.\nRelación entre el desarrollo de angustia y el sistema inconciente.\nRelación entre contrainvestidura y angustia."
+        }
+      ],
+      "rawGuideText": "SEMINARIOS\n\nPuntos VI y VII del programa\n\nPunto VI:  Conferencia 23: Los caminos de formación de síntoma\n\nEje a desarrollar: La ganancia de la enfermedad (un modo de satisfacción que el Yo vive como padecimiento).\n\nConceptos a articular: Síntoma\n                                        Fantasía\n\nSe retoma y se despliega el reordenamiento de la serie etiológica del síntoma ya planteado en Mis tesis… (incluyendo a la fantasía), como fundamento de la causación de la neurosis.\n\nArticuladores:   Regresión\n                            Fijación\n                            Represión\n\nPuntos a desarrollar\n\nLa no equivalencia entre síntoma y enfermedad.\nDisposición a la neurosis como lo que resta tras la supresión de síntomas.\nEl síntoma como nueva modalidad de satisfacción pulsional, vale como formación de compromiso entre la libido y el Yo.\nRegresión a puntos de fijación como soporte para la satisfacción.\nLas fijaciones como lugares que encuentra la libido para quebrantar las represiones.\nRelación entre el síntoma y el sueño.\nImportancia de las prácticas y vivencias de la infancia para la fijación libidinal.\nRelación de complementareidad entre las vivencias infantiles y las vivencias tardías.\nSeries complementarias entre: la disposición constitucional (vivencias heredadas) y el vivenciar infantil, que hace a la predisposición por fijación libidinal, y el vivenciar accidental del adulto.\nValor que se agrega por regresión al vivenciar infantil.\nEl valor de verdad histórica de las vivencias infantiles: la realidad psíquica.\nLas “fantasías primordiales” (seducción, castración y escena primaria) patrimonio indispensable de las neurosis como lo que llena las lagunas de la verdad individual con una verdad prehistórica.\nDiferencia entre sueño diurno y fantasía inconciente.\nLa fantasía como eslabón intermedio entre la regresión y la formación de síntomas  (recordar Mis tesis… e Introducción al narcisismo).\nImportancia del punto de vista económico.\n\nReferente clínico: Conferencias XVIII y XIX: “la falla de un ceremonial del dormir”\n\nPunto VII: La 2ª versión de la teoría de la angustia\n\nEje\nLa angustia como punto nodal en las neurosis de transferencia, sostenida en la pulsión y articulada al aparato de representaciones por la vía de la represión.\n\nArticulación conceptual\nAngustia – Pulsión - Teoría de la libido – Represión – Causación de la neurosis.\n\nSobre el psicoanálisis silvestre\n\nEje conceptual: La inclusión de la angustia en el campo de lo psíquico.\n\nPuntos a desarrollar:\n\nPasaje de la “tensión sexual somática” a la “psicosexualidad”.\n\nLa insatisfacción sexual encuentra su rango conceptual en los síntomas neuróticos: el conflicto entre la libido y la represión.\n\nLa represión\n\nEje conceptual: La angustia surge de la represión: la libido reprimida se “transpone” en angustia\n\nPuntos a desarrollar\n\nA partir de la inclusión de la pulsión vía fijación, se acentúa por el destino del monto de afecto (residuo) el fracaso de la represión en evitar displacer.\nTransposición de las energías psíquicas en afectos, en particular en angustia.\nTres destinos del monto de afecto: sofocado – coloreado cualitativamente – mudado en angustia.\nSe acentúa la sustracción de la investidura energética o libido en las tres neurosis a partir de la represión, y la diferencia en el modo en que se produce la sustitución:\nEn la histeria de angustia, radicalmente fracasada.\nEn la histeria de conversión, la porción del representante, por condensación atrae hacia sí la investidura íntegra, único caso de formación de síntoma con desprendimiento de angustia ocasionales.\nEn la neurosis obsesiva: represión de un impulso hostil hacia una persona amada, formación reactiva como formación sustitutiva, y la sobreinvestidura del zwang.\n\n25ª Conferencia: La angustia\n\nEje conceptual: La libido no aplicada.\n\nPuntos a desarrollar:\n\nEl lugar del extraño en el desarrollo de angustia del niño: la imposibilidad para aplicar la libido.\nDesengaño y añoranza, su transposición en angustia.\nLa libido no aplicada: correlato de la represión (articular con la “sustracción de investidura” en Lo inconciente).\nLa libido como peligro para el Yo.\nLa importancia del destino del monto de afecto en el proceso represivo.\nRelación entre el desarrollo de angustia y el sistema inconciente.\nRelación entre contrainvestidura y angustia."
+    },
+    {
+      "id": "practice",
+      "label": "Prácticos",
+      "title": "Puntos V y VI. Segundo ordenamiento metapsicológico. Transferencia.",
+      "topics": [
+        {
+          "id": "m4-p-metapsicologia",
+          "label": "Metapsicología",
+          "title": "Consideraciones respecto de la “Metapsicología”",
+          "eje": "Definición, alcances y ordenamientos metapsicológicos en relación con las tópicas freudianas.",
+          "points": [
+            "Definición y alcances del término",
+            "Ordenamientos metapsicológicos",
+            "Relación con las tópicas freudianas"
+          ],
+          "readingRefs": [],
+          "rawGuideText": "Punto VI:  Conferencia 23: Los caminos de formación de síntoma\n\nEje a desarrollar: La ganancia de la enfermedad (un modo de satisfacción que el Yo vive como padecimiento).\n\nConceptos a articular: Síntoma\n                                        Fantasía\n\nSe retoma y se despliega el reordenamiento de la serie etiológica del síntoma ya planteado en Mis tesis… (incluyendo a la fantasía), como fundamento de la causación de la neurosis.\n\nArticuladores:   Regresión\n                            Fijación\n                            Represión\n\nPuntos a desarrollar\n\nLa no equivalencia entre síntoma y enfermedad.\nDisposición a la neurosis como lo que resta tras la supresión de síntomas.\nEl síntoma como nueva modalidad de satisfacción pulsional, vale como formación de compromiso entre la libido y el Yo.\nRegresión a puntos de fijación como soporte para la satisfacción.\nLas fijaciones como lugares que encuentra la libido para quebrantar las represiones.\nRelación entre el síntoma y el sueño.\nImportancia de las prácticas y vivencias de la infancia para la fijación libidinal.\nRelación de complementareidad entre las vivencias infantiles y las vivencias tardías.\nSeries complementarias entre: la disposición constitucional (vivencias heredadas) y el vivenciar infantil, que hace a la predisposición por fijación libidinal, y el vivenciar accidental del adulto.\nValor que se agrega por regresión al vivenciar infantil.\nEl valor de verdad histórica de las vivencias infantiles: la realidad psíquica.\nLas “fantasías primordiales” (seducción, castración y escena primaria) patrimonio indispensable de las neurosis como lo que llena las lagunas de la verdad individual con una verdad prehistórica.\nDiferencia entre sueño diurno y fantasía inconciente.\nLa fantasía como eslabón intermedio entre la regresión y la formación de síntomas  (recordar Mis tesis… e Introducción al narcisismo).\nImportancia del punto de vista económico.\n\nReferente clínico: Conferencias XVIII y XIX: “la falla de un ceremonial del dormir”\n\nPunto VII: La 2ª versión de la teoría de la angustia\n\nEje\nLa angustia como punto nodal en las neurosis de transferencia, sostenida en la pulsión y articulada al aparato de representaciones por la vía de la represión.\n\nArticulación conceptual\nAngustia – Pulsión - Teoría de la libido – Represión – Causación de la neurosis.\n\nSobre el psicoanálisis silvestre\n\nEje conceptual: La inclusión de la angustia en el campo de lo psíquico.\n\nPuntos a desarrollar:\n\nPasaje de la “tensión sexual somática” a la “psicosexualidad”.\n\nLa insatisfacción sexual encuentra su rango conceptual en los síntomas neuróticos: el conflicto entre la libido y la represión.\n\nLa represión\n\nEje conceptual: La angustia surge de la represión: la libido reprimida se “transpone” en angustia\n\nPuntos a desarrollar\n\nA partir de la inclusión de la pulsión vía fijación, se acentúa por el destino del monto de afecto (residuo) el fracaso de la represión en evitar displacer.\nTransposición de las energías psíquicas en afectos, en particular en angustia.\nTres destinos del monto de afecto: sofocado – coloreado cualitativamente – mudado en angustia.\nSe acentúa la sustracción de la investidura energética o libido en las tres neurosis a partir de la represión, y la diferencia en el modo en que se produce la sustitución:\nEn la histeria de angustia, radicalmente fracasada.\nEn la histeria de conversión, la porción del representante, por condensación atrae hacia sí la investidura íntegra, único caso de formación de síntoma con desprendimiento de angustia ocasionales.\nEn la neurosis obsesiva: represión de un impulso hostil hacia una persona amada, formación reactiva como formación sustitutiva, y la sobreinvestidura del zwang.\n\n25ª Conferencia: La angustia\n\nEje conceptual: La libido no aplicada.\n\nPuntos a desarrollar:\n\nEl lugar del extraño en el desarrollo de angustia del niño: la imposibilidad para aplicar la libido.\nDesengaño y añoranza, su transposición en angustia.\nLa libido no aplicada: correlato de la represión (articular con la “sustracción de investidura” en Lo inconciente).\nLa libido como peligro para el Yo.\nLa importancia del destino del monto de afecto en el proceso represivo.\nRelación entre el desarrollo de angustia y el sistema inconciente.\nRelación entre contrainvestidura y angustia.\n\nPRACTICOS\n\nPuntos V y VI del programa\n\nPunto V\n\nConsideraciones respecto de la “Metapsicología”\n\nDefinición y alcances del término.\nOrdenamientos metapsicológicos: su relación con las tópicas freudianas.\n\nEjes de lectura y núcleos temáticos de cada texto:"
+        },
+        {
+          "id": "m4-p-nota",
+          "label": "Nota sobre inconciente",
+          "title": "Nota sobre el concepto de lo inconciente en psicoanálisis",
+          "eje": "Pasaje de una concepción descriptiva a una concepción dinámica del inconciente.",
+          "points": [
+            "Estudio preliminar para Lo inconciente",
+            "Inconciente descriptivo, dinámico y sistemático",
+            "Representación como referencia del aparato psíquico",
+            "Resistencia como indicio de defensa",
+            "Sistema Icc y legalidad diferenciable de la conciencia"
+          ],
+          "readingRefs": [
+            {
+              "title": "Nota sobre el concepto de lo inconsciente en psicoanálisis"
+            }
+          ],
+          "rawGuideText": "“Nota sobre el concepto de lo inconciente en psicoanálisis” (1912)\n\nEjes de lectura:\n\nLa “Nota…”como un estudio preliminar para “Lo inconciente”: la formulación de los conceptos de pulsión y represión habrá de complejizar el estatuto de lo inconciente.\nArticulación entre el inconciente formulado por Freíd en su primer ordenamiento metapsicológico (“La Interpretación de los sueños”) y el inconciente formulado en la metapsicología de 1915 (segundo ordenamiento): pasaje de una concepción descriptiva a una concepción dinámica.\n\nNúcleos temáticos fundamentales:\n\nFundamentación freudiana de la hipótesis respecto de lo inconciente, en relación con las distintas acepciones del término (la referencia es la “ representación” dado que el aparato psíquico, al igual que en “La interpretación de los sueños”, es un aparato de representaciones).\n“Conciente” e “Inconciente” como cualidades aplicables a las representaciones, como un estado particular de las mismas, y según su relación con la defensa (repulsión) a partir de los indicios de la resistencia.  Desde esta perspectiva una representación es conciente, o bien, inconciente en sentido descriptivo (casuística: hechos de la memoria o de la asociación) o dinámico (casuística: sugestión post hipnótica, síntomas neuróticos).\n“Lo inconciente” en sentido sistemático, ya no como una propiedad o atributo de la representación sino como un sistema de la actividad psíquica, con una legalidad particular y diferenciable de la conciencia.  Le corresponde la nomenclatura “Icc” (casuística: estudio de los sueños)"
+        },
+        {
+          "id": "m4-p-represion",
+          "label": "La represión",
+          "title": "La represión (1915)",
+          "eje": "Abordaje metapsicológico del mecanismo de la represión.",
+          "points": [
+            "Construcción del concepto de represión",
+            "Pulsión e inconciente",
+            "Representante psíquico de pulsión",
+            "Fases de la represión",
+            "Representación y monto de afecto",
+            "Estudio clínico del mecanismo"
+          ],
+          "readingRefs": [
+            {
+              "title": "La represión"
+            }
+          ],
+          "rawGuideText": "La represión (1915)\n\nEjes de lectura:\n\nAbordaje metapsicológico del mecanismo de la represión: construcción del concepto (definición, aspectos, fundamentos clínicos de su definición).\nLa represión como un concepto que permite abordar y articular los conceptos de pulsión e inconciente.\nInscripción de lo pulsional en un aparato psíquico de representaciones previamente formulado: noción de representante psíquico de pulsión.\n\nNúcleos temáticos fundamentales:\n\nDefinición\nLa represión como uno de los destinos de la pulsión (articulación con “Pulsiones y destinos de pulsión”: los destinos pulsionales como variedades de defensa contra las pulsiones; anticipación de la relación entre defensa, representante psíquico y contrainvestidura).\nLa represión como un mecanismo destinado a evitar el displacer psíquico, recurso intermedio entre la huida frente a los estímulos externos y el enjuiciamiento reflexivo del contenido de pensamiento.\n\nMotivos de la represión: sus distintas vías de estudio\nProblemática de la meta pulsional en relación con el placer y el displacer de satisfacción: “placer directo” que se muda en displacer.\nLugar del dolor y del hambre: referentes “pseudos-pulsionales” al momento de indagar el displacer de satisfacción asociado a la represión.\nClínica de las neurosis de transferencia: conclusiones extraídas:\nRelación entre satisfacción de la pulsión y represión, a partir de su articulación con los distintos sistemas psíquicos (placer en un sistema, displacer en otro).\nRelación entre resistencia y represión: “su esencia consiste en rechazar algo de la conciencia” (fuerza de repulsión por estudio de las resistencias).\nRelación entre inconciente y represión: su operatoria requiere de la diferenciación entre lo conciente y lo inconciente (represión e inconciente como términos correlativos).\n\nAspectos del mecanismo de represión:\n\nFases de la represión: noción de representante psíquico de pulsión:\nRepresión primaria (como anterioridad lógica): inscripción del representante psíquico vía fijación (anticipación del mecanismo de la contrainvestidura según el cap. IV de “Lo inconciente”).\nRepresión secundaria o propiamente dicha: retorno de lo reprimido.\nPasaje de la represión como un estado de las representaciones a la represión como un proceso dinámico: a la repulsa conciente se agrega la fuerza de atracción de lo “reprimido desde antes”.\nCaracterísticas de la represión: proceso individual y móvil.\nAspectos del representante psíquico de  pulsión: representación y monto de afecto (destino de ambos componentes), la represión fracasada como objeto de estudio (emergencia del displacer).\n\nEstudio clínico del mecanismo de represión\n\nLa represión como un proceso de sustracción de investidura energética (libido): algo se sustrae, pero logra retornar de distintas maneras (cap. IV de Lo inconciente).\nArticulaciones y diferencias con el mecanismo de la formación sustitutiva y del síntoma (problemática de la investidura de la pulsión,  cap. IV de Lo inconciente).\n   Represión y psiconeurosis: histeria de angustia (inclusión de la angustia en el campo de\n      las neurosis de transferencia), histeria de conversión, neurosis obsesiva."
         },
         {
           "id": "m4-p-icc-ii",
-          "label": "Lo inconsciente II",
-          "title": "Lo inconsciente, II: La multivocidad de lo inconsciente y el punto de vista tópico",
-          "eje": "Punto de vista tópico.",
+          "label": "Lo inconciente II",
+          "title": "Cap. II: La multivocidad de lo inconciente y el punto de vista tópico",
+          "eje": "Multivocidad del término inconciente y perspectiva tópica.",
           "points": [
-            "Multivocidad",
-            "Sistema Icc",
-            "Hipótesis tópica"
+            "Inconciente latente e inconciente permanente",
+            "Nomenclatura Cc/Icc",
+            "Fases del acto psíquico",
+            "Doble inscripción o cambio funcional",
+            "Eficacia de la interpretación"
           ],
           "readingRefs": [
             {
               "title": "Lo inconsciente, II: La multivocidad de lo inconsciente y el punto de vista tópico"
             }
-          ]
+          ],
+          "rawGuideText": "Lo inconciente (1915)\n\nCap.II: La multivocidad de lo inconciente y el punto de vista tópico\n\nEjes de lectura:\n\nMultivocidad del término”inconciente” (articulación y diferencia con “Nota…”)\nPerspectiva tópica, en relación con la noción de “localidad psíquica” y el comercio entre sistemas.\n\nNúcleos temáticos fundamentales:\n\n“Inconciente latente”: inconciente en sentido descriptivo, lo preconciente.\n“Inconciente permanente”: “lo reprimido inconciente” (abarcaría las acepciones dinámica y sistemática, según la “Nota…”).\nNomenclatura relativa a los distintos sistemas: Cc.Icc.\nFases del “acto psíquico”: punto de vista tópico.\nPasaje de lo inconciente a lo conciente: ¿doble inscripción de la representación o cambio de estado meramente funcional?\nDiferencia entre “tener oído” y “tener vivenciado” (eficacia o ineficacia de la interpretación analítica)."
         },
         {
           "id": "m4-p-icc-iv",
-          "label": "Lo inconsciente IV",
-          "title": "Lo inconsciente, IV: Tópica y dinámica de la represión",
-          "eje": "Tópica y dinámica de la represión.",
+          "label": "Lo inconciente IV",
+          "title": "Capítulo IV: Tópica y dinámica de la represión",
+          "eje": "Articulación de los aspectos tópicos y dinámicos de la represión.",
           "points": [
-            "Contrainvestidura",
-            "Defensa",
-            "Retorno de lo reprimido"
+            "Sustracción de investidura",
+            "Producción de contrainvestidura",
+            "Contrainvestidura y represión primaria/secundaria",
+            "Neurosis de transferencia",
+            "Investidura pulsional y angustia"
           ],
           "readingRefs": [
             {
               "title": "Lo inconsciente, IV: Tópica y dinámica de la represión"
             }
-          ]
+          ],
+          "rawGuideText": "CapítuloIV: Tópica y dinámica de la represión\n\nEjes de lectura:\n\nArticulación de los aspectos tópicos y dinámicos de la represión: mecanismos del proceso. Noción de contrainvestidura.\nPerspectiva económica.\nNeurosis de transferencia.\n\nNúcleos temáticos fundamentales:\n\nLa represión como un proceso dinámico que afecta a las representaciones y que acontece en la frontera de los sistemas Icc. y Cc.\nAspectos funcionales del proceso: sustracción de investidura, producción de contrainvestidura.\nNoción de contrainvestidura: articulación con la represión primaria y con la represión secundaria.\nAbordaje metapsicológico de la contrainvestidura: neurosis de transferencia (articulación con “La represión”: mecanismos que participan del proceso)\nProblemática de la investidura pulsional; lugar de la angustia."
+        },
+        {
+          "id": "m4-p-icc-v",
+          "label": "Lo inconciente V",
+          "title": "Capítulo V: Las propiedades particulares del sistema inconciente",
+          "eje": "Caracterización del inconciente reprimido y diferencia con el sistema preconciente.",
+          "points": [
+            "Núcleo del inconciente",
+            "Ausencia de contradicción y negación",
+            "Proceso primario",
+            "Atemporalidad",
+            "Realidad psíquica",
+            "Propiedades del sistema Prcc"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, caps. II, IV, V, VI, VII"
+            }
+          ],
+          "rawGuideText": "Capítulo V: Las propiedades particulares del sistema inconciente\n\nEjes de lectura:\n\nCaracterización del inconciente reprimido; su relación y diferencia con el funcionamiento del sistema Preconciente.\n\nNúcleos temáticos fundamentales:\n\nCaracterísticas del núcleo del inconciente: representantes psíquicos investidos.\nFuncionamiento del sistema Icc.: ausencia de contradicción y de negación, proceso primario (condensación y desplazamiento), atemporalidad, sustitución de la realidad exterior por la realidad psíquica (principio del placer).\nPropiedades del sistema Prcc. en oposición al sistema Icc.: inhibición de la tendencia a la descarga de la investidura, proceso secundario, ordenamiento temporal diacrónico, censura, principio de realidad, función de la memoria."
+        },
+        {
+          "id": "m4-p-icc-vii",
+          "label": "Lo inconciente VII",
+          "title": "Capítulo VII: El discernimiento de lo inconciente",
+          "eje": "Diferencia entre representación conciente e inconciente a partir de la representación de objeto.",
+          "points": [
+            "Neurosis narcisistas y neurosis de transferencia",
+            "Alteraciones del lenguaje en la esquizofrenia",
+            "Las palabras son tratadas como cosas",
+            "Representación-cosa y representación-palabra",
+            "Denegación de traducción en palabras"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, caps. II, IV, V, VI, VII"
+            }
+          ],
+          "rawGuideText": "Capítulo VII: El discernimiento de lo inconciente.\n\nEjes de lectura:\n\nDiferencia entre una representación conciente y una inconciente: supuesto de “la representación de objeto”.\n\nNúcleos temáticos fundamentales:\n\nEstudio de las neurosis narcisistas (en su diferencia con las de transferencia): resignación de las investiduras de objeto; particularidades de la relación establecida entre los sistemas psíquicos Cc.e Icc.\nAlteraciones del lenguaje en la esquizofrenia (lenguaje hipocondríaco o de órgano) materialidad de la palabra (“Las palabras son tratadas como cosas”).\nLa “representación de objeto”: representación-cosa (como investidura de la huella mnémica de la cosa), representación-palabra (traducción de la representación-cosa en palabra).\nRepresión en las neurosis de transferencia: a la representación cosa se le deniega su traducción en palabras."
         },
         {
           "id": "m4-p-totem",
           "label": "Tótem y tabú",
-          "title": "Tótem y tabú, IV, puntos 5 y 6",
-          "eje": "Padre, culpa e identificación.",
+          "title": "Tótem y tabú (1913), Capítulo IV: El retorno del totemismo en la infancia",
+          "eje": "Lugar del padre en la estructuración del psiquismo y función del mito del asesinato del padre.",
           "points": [
-            "Asesinato del padre",
-            "Obediencia retrospectiva",
-            "Incorporación oral",
-            "Culpa"
+            "Tótem como sistema de normas y prohibiciones",
+            "Pasaje de naturaleza a cultura",
+            "Ambivalencia, obediencia retrospectiva y culpa",
+            "Incorporación canibálica e identificación simbólica",
+            "Padre muerto y represión primaria"
           ],
           "readingRefs": [
             {
               "title": "Tótem y tabú, IV, puntos 5 y 6"
             }
-          ]
+          ],
+          "rawGuideText": "Tótem y tabú (1913)\n\nCapítulo IV: El retorno del totemismo en la infancia.\n\nEjes de lectura:\n\nLugar fundamental del padre en la estructuración del psiquismo.\nAsesinato del padre: contenido y función del mito.\n\nNúcleos temáticos fundamentales:\n\nEl totemismo como sistema de normas y prohibiciones: pasaje de la naturaleza a la cultura.  Orígen del tótem: contenido y significación del mito en psicoanálisis.\nAmbivalencia, obediencia retrospectiva y conciencia de culpa: suscripción a un linaje por incorporación canibálica (identificación simbólica) de los rasgos del objeto (padre muerto).\nAsesinato del padre y represión primaria: el padre muerto como inscripción de la pérdida de una satisfacción originaria."
         },
         {
-          "id": "m4-p-tecnica",
-          "label": "Técnica",
-          "title": "Transferencia, iniciación del tratamiento y recordar-repetir-reelaborar",
-          "eje": "Técnica analítica y transferencia.",
+          "id": "m4-p-transferencia",
+          "label": "Transferencia",
+          "title": "Punto VI del programa: Transferencia, motor y obstáculo",
+          "eje": "Transferencia, amor de transferencia, resistencia y repetición.",
           "points": [
-            "Inicio del tratamiento",
-            "Transferencia",
-            "Resistencia",
-            "Repetición",
-            "Reelaboración"
+            "Lugar del analista en la transferencia",
+            "Transferencia como fenómeno propio de las neurosis",
+            "Cierre del inconciente",
+            "Repetición de condiciones del amor",
+            "Transferencia positiva y negativa",
+            "Recordar, repetir, reelaborar"
           ],
           "readingRefs": [
             {
@@ -278,9 +406,13 @@
             {
               "title": "Recordar, repetir, reelaborar"
             }
-          ]
+          ],
+          "rawGuideText": "Punto VI del programa: Transferencia, motor y obstáculo\n\nConceptos fundamentales:\n\nTransferencia\nAmor de transferencia\nResistencia\nRepetición (agieren)\n\nIdeas a desarrollar:\n\nRelación entre represión-retorno de lo reprimido y el lugar del analista en la transferencia.\n\nLa transferencia como fenómeno propio de las neurosis.\nCierre del inconciente: detención de las asociaciones-surgimiento del analista-reinicio de las asociaciones.\nLa transferencia como repetición de las condiciones del amor.\nEl enamoramiento: reedición de antiguos rasgos infantiles.\n\nLa transferencia como motor y obstáculo.\nLa transferencia positiva y negativa\nLa transferencia como resistencia.\n\nRecodar, repetir, reelaborar.\nLa repetición como forma del retorno de lo reprimido.\nLa repetición como límite al recuerdo.\nDiferencia entre repetición y recuerdo\nNadie puede ser ajusticiado in absentia o in efigie.\n\n- 1 -"
         }
-      ]
+      ],
+      "rawGuideText": "PRACTICOS\n\nPuntos V y VI del programa\n\nPunto V\n\nConsideraciones respecto de la “Metapsicología”\n\nDefinición y alcances del término.\nOrdenamientos metapsicológicos: su relación con las tópicas freudianas.\n\nEjes de lectura y núcleos temáticos de cada texto:\n\n“Nota sobre el concepto de lo inconciente en psicoanálisis” (1912)\n\nEjes de lectura:\n\nLa “Nota…”como un estudio preliminar para “Lo inconciente”: la formulación de los conceptos de pulsión y represión habrá de complejizar el estatuto de lo inconciente.\nArticulación entre el inconciente formulado por Freíd en su primer ordenamiento metapsicológico (“La Interpretación de los sueños”) y el inconciente formulado en la metapsicología de 1915 (segundo ordenamiento): pasaje de una concepción descriptiva a una concepción dinámica.\n\nNúcleos temáticos fundamentales:\n\nFundamentación freudiana de la hipótesis respecto de lo inconciente, en relación con las distintas acepciones del término (la referencia es la “ representación” dado que el aparato psíquico, al igual que en “La interpretación de los sueños”, es un aparato de representaciones).\n“Conciente” e “Inconciente” como cualidades aplicables a las representaciones, como un estado particular de las mismas, y según su relación con la defensa (repulsión) a partir de los indicios de la resistencia.  Desde esta perspectiva una representación es conciente, o bien, inconciente en sentido descriptivo (casuística: hechos de la memoria o de la asociación) o dinámico (casuística: sugestión post hipnótica, síntomas neuróticos).\n“Lo inconciente” en sentido sistemático, ya no como una propiedad o atributo de la representación sino como un sistema de la actividad psíquica, con una legalidad particular y diferenciable de la conciencia.  Le corresponde la nomenclatura “Icc” (casuística: estudio de los sueños)\n\n La represión (1915)\n\nEjes de lectura:\n\nAbordaje metapsicológico del mecanismo de la represión: construcción del concepto (definición, aspectos, fundamentos clínicos de su definición).\nLa represión como un concepto que permite abordar y articular los conceptos de pulsión e inconciente.\nInscripción de lo pulsional en un aparato psíquico de representaciones previamente formulado: noción de representante psíquico de pulsión.\n\nNúcleos temáticos fundamentales:\n\nDefinición\nLa represión como uno de los destinos de la pulsión (articulación con “Pulsiones y destinos de pulsión”: los destinos pulsionales como variedades de defensa contra las pulsiones; anticipación de la relación entre defensa, representante psíquico y contrainvestidura).\nLa represión como un mecanismo destinado a evitar el displacer psíquico, recurso intermedio entre la huida frente a los estímulos externos y el enjuiciamiento reflexivo del contenido de pensamiento.\n\nMotivos de la represión: sus distintas vías de estudio\nProblemática de la meta pulsional en relación con el placer y el displacer de satisfacción: “placer directo” que se muda en displacer.\nLugar del dolor y del hambre: referentes “pseudos-pulsionales” al momento de indagar el displacer de satisfacción asociado a la represión.\nClínica de las neurosis de transferencia: conclusiones extraídas:\nRelación entre satisfacción de la pulsión y represión, a partir de su articulación con los distintos sistemas psíquicos (placer en un sistema, displacer en otro).\nRelación entre resistencia y represión: “su esencia consiste en rechazar algo de la conciencia” (fuerza de repulsión por estudio de las resistencias).\nRelación entre inconciente y represión: su operatoria requiere de la diferenciación entre lo conciente y lo inconciente (represión e inconciente como términos correlativos).\n\nAspectos del mecanismo de represión:\n\nFases de la represión: noción de representante psíquico de pulsión:\nRepresión primaria (como anterioridad lógica): inscripción del representante psíquico vía fijación (anticipación del mecanismo de la contrainvestidura según el cap. IV de “Lo inconciente”).\nRepresión secundaria o propiamente dicha: retorno de lo reprimido.\nPasaje de la represión como un estado de las representaciones a la represión como un proceso dinámico: a la repulsa conciente se agrega la fuerza de atracción de lo “reprimido desde antes”.\nCaracterísticas de la represión: proceso individual y móvil.\nAspectos del representante psíquico de  pulsión: representación y monto de afecto (destino de ambos componentes), la represión fracasada como objeto de estudio (emergencia del displacer).\n\nEstudio clínico del mecanismo de represión\n\nLa represión como un proceso de sustracción de investidura energética (libido): algo se sustrae, pero logra retornar de distintas maneras (cap. IV de Lo inconciente).\nArticulaciones y diferencias con el mecanismo de la formación sustitutiva y del síntoma (problemática de la investidura de la pulsión,  cap. IV de Lo inconciente).\n   Represión y psiconeurosis: histeria de angustia (inclusión de la angustia en el campo de\n      las neurosis de transferencia), histeria de conversión, neurosis obsesiva.\n\nLo inconciente (1915)\n\nCap.II: La multivocidad de lo inconciente y el punto de vista tópico\n\nEjes de lectura:\n\nMultivocidad del término”inconciente” (articulación y diferencia con “Nota…”)\nPerspectiva tópica, en relación con la noción de “localidad psíquica” y el comercio entre sistemas.\n\nNúcleos temáticos fundamentales:\n\n“Inconciente latente”: inconciente en sentido descriptivo, lo preconciente.\n“Inconciente permanente”: “lo reprimido inconciente” (abarcaría las acepciones dinámica y sistemática, según la “Nota…”).\nNomenclatura relativa a los distintos sistemas: Cc.Icc.\nFases del “acto psíquico”: punto de vista tópico.\nPasaje de lo inconciente a lo conciente: ¿doble inscripción de la representación o cambio de estado meramente funcional?\nDiferencia entre “tener oído” y “tener vivenciado” (eficacia o ineficacia de la interpretación analítica).\n\nCapítuloIV: Tópica y dinámica de la represión\n\nEjes de lectura:\n\nArticulación de los aspectos tópicos y dinámicos de la represión: mecanismos del proceso. Noción de contrainvestidura.\nPerspectiva económica.\nNeurosis de transferencia.\n\nNúcleos temáticos fundamentales:\n\nLa represión como un proceso dinámico que afecta a las representaciones y que acontece en la frontera de los sistemas Icc. y Cc.\nAspectos funcionales del proceso: sustracción de investidura, producción de contrainvestidura.\nNoción de contrainvestidura: articulación con la represión primaria y con la represión secundaria.\nAbordaje metapsicológico de la contrainvestidura: neurosis de transferencia (articulación con “La represión”: mecanismos que participan del proceso)\nProblemática de la investidura pulsional; lugar de la angustia.\n\nCapítulo V: Las propiedades particulares del sistema inconciente\n\nEjes de lectura:\n\nCaracterización del inconciente reprimido; su relación y diferencia con el funcionamiento del sistema Preconciente.\n\nNúcleos temáticos fundamentales:\n\nCaracterísticas del núcleo del inconciente: representantes psíquicos investidos.\nFuncionamiento del sistema Icc.: ausencia de contradicción y de negación, proceso primario (condensación y desplazamiento), atemporalidad, sustitución de la realidad exterior por la realidad psíquica (principio del placer).\nPropiedades del sistema Prcc. en oposición al sistema Icc.: inhibición de la tendencia a la descarga de la investidura, proceso secundario, ordenamiento temporal diacrónico, censura, principio de realidad, función de la memoria.\n\nCapítulo VII: El discernimiento de lo inconciente.\n\nEjes de lectura:\n\nDiferencia entre una representación conciente y una inconciente: supuesto de “la representación de objeto”.\n\nNúcleos temáticos fundamentales:\n\nEstudio de las neurosis narcisistas (en su diferencia con las de transferencia): resignación de las investiduras de objeto; particularidades de la relación establecida entre los sistemas psíquicos Cc.e Icc.\nAlteraciones del lenguaje en la esquizofrenia (lenguaje hipocondríaco o de órgano) materialidad de la palabra (“Las palabras son tratadas como cosas”).\nLa “representación de objeto”: representación-cosa (como investidura de la huella mnémica de la cosa), representación-palabra (traducción de la representación-cosa en palabra).\nRepresión en las neurosis de transferencia: a la representación cosa se le deniega su traducción en palabras.\n\nTótem y tabú (1913)\n\nCapítulo IV: El retorno del totemismo en la infancia.\n\nEjes de lectura:\n\nLugar fundamental del padre en la estructuración del psiquismo.\nAsesinato del padre: contenido y función del mito.\n\nNúcleos temáticos fundamentales:\n\nEl totemismo como sistema de normas y prohibiciones: pasaje de la naturaleza a la cultura.  Orígen del tótem: contenido y significación del mito en psicoanálisis.\nAmbivalencia, obediencia retrospectiva y conciencia de culpa: suscripción a un linaje por incorporación canibálica (identificación simbólica) de los rasgos del objeto (padre muerto).\nAsesinato del padre y represión primaria: el padre muerto como inscripción de la pérdida de una satisfacción originaria.\n\nPunto VI del programa: Transferencia, motor y obstáculo\n\nConceptos fundamentales:\n\nTransferencia\nAmor de transferencia\nResistencia\nRepetición (agieren)\n\nIdeas a desarrollar:\n\nRelación entre represión-retorno de lo reprimido y el lugar del analista en la transferencia.\n\nLa transferencia como fenómeno propio de las neurosis.\nCierre del inconciente: detención de las asociaciones-surgimiento del analista-reinicio de las asociaciones.\nLa transferencia como repetición de las condiciones del amor.\nEl enamoramiento: reedición de antiguos rasgos infantiles.\n\nLa transferencia como motor y obstáculo.\nLa transferencia positiva y negativa\nLa transferencia como resistencia.\n\nRecodar, repetir, reelaborar.\nLa repetición como forma del retorno de lo reprimido.\nLa repetición como límite al recuerdo.\nDiferencia entre repetición y recuerdo\nNadie puede ser ajusticiado in absentia o in efigie.\n\n- 1 -"
     }
-  ]
+  ],
+  "rawGuideText": "Psicoanálisis Freud II (Cátedra II)\nProfesor Titular Regular: David Laznik\n\nGuía de teóricos, seminarios y prácticos\n\nCuarto Módulo: REPRESIÓN, INCONCIENTE, TRANSFERENCIA, GANANCIA DE LA ENFERMEDAD, ANGUSTIA\n\nTeóricos:\nPuntos 9, 10 y 12. La concepción dinámica del inconciente. Inconciente y represión. Transferencia: motor y obstáculo\n\nPrácticos:\nPuntos V y VI. Segundo ordenamiento metapsicológico. Transferencia.\n\nSeminarios:\nPuntos VI y VII. Ganancia de la enfermedad. 2º versión de la teoría de la angustia.\n\nTEORICOS\n\nPuntos 9, 10 y 12 del programa\n\nPunto 9: La concepción dinámica del Inconciente: todo lo reprimido es inconciente\n\nEjes conceptuales articuladores:\na. Necesidad de introducir el concepto de  Represión primordial, (modificación del término defensa en la época de Estudios sobre la Histeria): denegación de la admisión en lo conciente.\n¿Qué se sustrae en la represión primaria? – Relaciones con el núcleo patógeno y el ombligo del sueño.\nEn la Conferencia 9ª. Pag. 135. “Así lo Inconciente adquiere para nosotros un nuevo sentido”…\nb. Represión propiamente dicha. (Importancia de la traducción: representante y no “agencia” de acuerdo a la ficha de la cátedra. Pos-represión en Análisis terminable e interminable” (1937)\nc. Fijación y regresión en la Conferencia 22: El fracaso en la represión. Retorno de lo reprimido.\nd. El asesinato del padre como referente mítico de la represión (Pag.143 a 147 de Tótem y Tabú)  El padre de la horda. El padre muerto y la “obediencia retrospectiva”. La incorporación oral del padre, la función del Ideal y la Identificación primaria (relación con el Cap.VII de Psicología de las masas y análisis del Yo). La conciencia de culpa en el varón (anticipo del sentimiento inconciente de culpa y la necesidad de castigo).\n\nAspectos a desarrollar:\n\nMudanza del placer de satisfacción en displacer. El dolor imperativo, un anticipo del mas allá.\nLa represión como mecanismo no presente desde el origen.\nLa represión como mecanismo de defensa: ¿cuándo se engendra y en qué consiste?\nRepresión e Inconciente: su correlatividad.\nRepresión primordial: primera fase de la represión.\nLa fijación: Dos operaciones diferentes: atracción y repulsión. “Algo reprimido desde antes”: lo que queda abajo, lo Unterdrückt como Vorstellungsrepräsentanz.\nEl retorno, “lo que nunca se supo” (6ª y 9ª Conferencias).  La represión individual y móvil (relación con lo no reconocido en los sueños: el ombligo como causa).\nEl mito del padre de la horda como figurabilidad para sostener el concepto de Represión primordial.\nEl banquete totémico.  La referencia al animal totémico como sustituto del padre.  Sus dos preceptos a la luz del Complejo de Edipo.  El lugar del padre muerto como incorporación e inscripción. El padre muerto: un lugar vacío como efecto de una pérdida originaria de satisfacción. Relación con la Identificación primaria a partir del cap. VII de  “Psicología de las masas…”.\nLa conciencia de culpa en el varón: anticipación del sentimiento inconciente de culpa y necesidad de castigo.\n\nPunto 10: Lo inconciente: “lo que nunca se supo”\n\nEjes conceptuales articuladores:\n\nConcepción dinámica del Inconciente: todo lo reprimido es icc.\nSustracción de la investidura a la representación: los tiempos de la represión.\nEl representante de la representación.\nRepresentación-cosa, Representación-palabra  (relación con el punto E en el cap. VII de la “Interpretación de los sueños”. Proceso primario y secundario.\n\nAspectos a desarrollar:\n\nEl mecanismo de la Represión primaria.\nLas propiedades del sistema Icc.\nLos retoños del Icc.  Las formaciones sustitutivas.  La censura. Diferenciación entre investidura pulsional como representación y afecto.\nEl núcleo del Icc. Características del proceso primario. Representación-cosa, representación-palabra y representación-objeto.  Relacionar con la Carta 52 y el punto E. en el cap. VII de la Interpretación de los sueños.\nEl fracaso de la defensa.\n\nPunto 12:  Las transferencias freudianas\n\nAnticipaciones: Ubicar el desarrollo del concepto en relación a los tres momentos de la clínica freudiana.\n\nHacer conciente lo inconciente,  el arte de la interpretación.\n\nAna O., la talking cure, raport sugestivo no analizado.\nEl analista como obstáculo externo, falso enlace.\nSueños: transferencia en relación al resto diurno.\n   Dora: transferencia como reedición, actúa en lugar de recordar.\n\nb.    Cierre del Inconciente, se manifiesta la resistencia.  Escritos técnicos intentan dar respuesta a las dificultades de la práctica.\n\nDesarrollo de los conceptos:\n\nTransferencia: motor y obstáculo.\nEl analista incluido en la serie del objeto de la elección de objeto.  Condiciones del amor.  Neurosis de transferencia.  Neurosis narcisistas.  Articulación del concepto de transferencia con la vida amorosa  (Introducción del narcisismo).\nDetención de las asociaciones: idea transferencial: despunta la resistencia.\nCampo de batalla donde se libran los conflictos; campo de la transferencia, su vínculo con la resistencia.  Los tres momentos: detención de las asociaciones, surgimiento del analista y reanudación de las asociaciones.\nLa repetición como límite al recuerdo.\nNada puede ser destruido in absentia o in efigie.\nEl amor de transferencia: un amor genuino del que se sirve la resistencia.\nAbstinencia e interpretación.\n\nLa resistencia al levantamiento de la resistencia\n\nAnticipaciones al mas allá.\nReformulación de la caída de la teoría del recuerdo (recuerdo actual, recuerdo encubridor).\n¿Qué se recuerda?\nDel recordar a la compulsión a repetir, el agieren al servicio de la resistencia.\nSustitución de neurosis ordinaria por la neurosis de transferencia.\n   Los límites de la interpretación: “un amor recalcitrante e indócil”.  El anticipo de la compulsión de repetición (Cap.III de Mas allá…)\n\nSEMINARIOS\n\nPuntos VI y VII del programa\n\nPunto VI:  Conferencia 23: Los caminos de formación de síntoma\n\nEje a desarrollar: La ganancia de la enfermedad (un modo de satisfacción que el Yo vive como padecimiento).\n\nConceptos a articular: Síntoma\n                                        Fantasía\n\nSe retoma y se despliega el reordenamiento de la serie etiológica del síntoma ya planteado en Mis tesis… (incluyendo a la fantasía), como fundamento de la causación de la neurosis.\n\nArticuladores:   Regresión\n                            Fijación\n                            Represión\n\nPuntos a desarrollar\n\nLa no equivalencia entre síntoma y enfermedad.\nDisposición a la neurosis como lo que resta tras la supresión de síntomas.\nEl síntoma como nueva modalidad de satisfacción pulsional, vale como formación de compromiso entre la libido y el Yo.\nRegresión a puntos de fijación como soporte para la satisfacción.\nLas fijaciones como lugares que encuentra la libido para quebrantar las represiones.\nRelación entre el síntoma y el sueño.\nImportancia de las prácticas y vivencias de la infancia para la fijación libidinal.\nRelación de complementareidad entre las vivencias infantiles y las vivencias tardías.\nSeries complementarias entre: la disposición constitucional (vivencias heredadas) y el vivenciar infantil, que hace a la predisposición por fijación libidinal, y el vivenciar accidental del adulto.\nValor que se agrega por regresión al vivenciar infantil.\nEl valor de verdad histórica de las vivencias infantiles: la realidad psíquica.\nLas “fantasías primordiales” (seducción, castración y escena primaria) patrimonio indispensable de las neurosis como lo que llena las lagunas de la verdad individual con una verdad prehistórica.\nDiferencia entre sueño diurno y fantasía inconciente.\nLa fantasía como eslabón intermedio entre la regresión y la formación de síntomas  (recordar Mis tesis… e Introducción al narcisismo).\nImportancia del punto de vista económico.\n\nReferente clínico: Conferencias XVIII y XIX: “la falla de un ceremonial del dormir”\n\nPunto VII: La 2ª versión de la teoría de la angustia\n\nEje\nLa angustia como punto nodal en las neurosis de transferencia, sostenida en la pulsión y articulada al aparato de representaciones por la vía de la represión.\n\nArticulación conceptual\nAngustia – Pulsión - Teoría de la libido – Represión – Causación de la neurosis.\n\nSobre el psicoanálisis silvestre\n\nEje conceptual: La inclusión de la angustia en el campo de lo psíquico.\n\nPuntos a desarrollar:\n\nPasaje de la “tensión sexual somática” a la “psicosexualidad”.\n\nLa insatisfacción sexual encuentra su rango conceptual en los síntomas neuróticos: el conflicto entre la libido y la represión.\n\nLa represión\n\nEje conceptual: La angustia surge de la represión: la libido reprimida se “transpone” en angustia\n\nPuntos a desarrollar\n\nA partir de la inclusión de la pulsión vía fijación, se acentúa por el destino del monto de afecto (residuo) el fracaso de la represión en evitar displacer.\nTransposición de las energías psíquicas en afectos, en particular en angustia.\nTres destinos del monto de afecto: sofocado – coloreado cualitativamente – mudado en angustia.\nSe acentúa la sustracción de la investidura energética o libido en las tres neurosis a partir de la represión, y la diferencia en el modo en que se produce la sustitución:\nEn la histeria de angustia, radicalmente fracasada.\nEn la histeria de conversión, la porción del representante, por condensación atrae hacia sí la investidura íntegra, único caso de formación de síntoma con desprendimiento de angustia ocasionales.\nEn la neurosis obsesiva: represión de un impulso hostil hacia una persona amada, formación reactiva como formación sustitutiva, y la sobreinvestidura del zwang.\n\n25ª Conferencia: La angustia\n\nEje conceptual: La libido no aplicada.\n\nPuntos a desarrollar:\n\nEl lugar del extraño en el desarrollo de angustia del niño: la imposibilidad para aplicar la libido.\nDesengaño y añoranza, su transposición en angustia.\nLa libido no aplicada: correlato de la represión (articular con la “sustracción de investidura” en Lo inconciente).\nLa libido como peligro para el Yo.\nLa importancia del destino del monto de afecto en el proceso represivo.\nRelación entre el desarrollo de angustia y el sistema inconciente.\nRelación entre contrainvestidura y angustia.\n\nPRACTICOS\n\nPuntos V y VI del programa\n\nPunto V\n\nConsideraciones respecto de la “Metapsicología”\n\nDefinición y alcances del término.\nOrdenamientos metapsicológicos: su relación con las tópicas freudianas.\n\nEjes de lectura y núcleos temáticos de cada texto:\n\n“Nota sobre el concepto de lo inconciente en psicoanálisis” (1912)\n\nEjes de lectura:\n\nLa “Nota…”como un estudio preliminar para “Lo inconciente”: la formulación de los conceptos de pulsión y represión habrá de complejizar el estatuto de lo inconciente.\nArticulación entre el inconciente formulado por Freíd en su primer ordenamiento metapsicológico (“La Interpretación de los sueños”) y el inconciente formulado en la metapsicología de 1915 (segundo ordenamiento): pasaje de una concepción descriptiva a una concepción dinámica.\n\nNúcleos temáticos fundamentales:\n\nFundamentación freudiana de la hipótesis respecto de lo inconciente, en relación con las distintas acepciones del término (la referencia es la “ representación” dado que el aparato psíquico, al igual que en “La interpretación de los sueños”, es un aparato de representaciones).\n“Conciente” e “Inconciente” como cualidades aplicables a las representaciones, como un estado particular de las mismas, y según su relación con la defensa (repulsión) a partir de los indicios de la resistencia.  Desde esta perspectiva una representación es conciente, o bien, inconciente en sentido descriptivo (casuística: hechos de la memoria o de la asociación) o dinámico (casuística: sugestión post hipnótica, síntomas neuróticos).\n“Lo inconciente” en sentido sistemático, ya no como una propiedad o atributo de la representación sino como un sistema de la actividad psíquica, con una legalidad particular y diferenciable de la conciencia.  Le corresponde la nomenclatura “Icc” (casuística: estudio de los sueños)\n\n La represión (1915)\n\nEjes de lectura:\n\nAbordaje metapsicológico del mecanismo de la represión: construcción del concepto (definición, aspectos, fundamentos clínicos de su definición).\nLa represión como un concepto que permite abordar y articular los conceptos de pulsión e inconciente.\nInscripción de lo pulsional en un aparato psíquico de representaciones previamente formulado: noción de representante psíquico de pulsión.\n\nNúcleos temáticos fundamentales:\n\nDefinición\nLa represión como uno de los destinos de la pulsión (articulación con “Pulsiones y destinos de pulsión”: los destinos pulsionales como variedades de defensa contra las pulsiones; anticipación de la relación entre defensa, representante psíquico y contrainvestidura).\nLa represión como un mecanismo destinado a evitar el displacer psíquico, recurso intermedio entre la huida frente a los estímulos externos y el enjuiciamiento reflexivo del contenido de pensamiento.\n\nMotivos de la represión: sus distintas vías de estudio\nProblemática de la meta pulsional en relación con el placer y el displacer de satisfacción: “placer directo” que se muda en displacer.\nLugar del dolor y del hambre: referentes “pseudos-pulsionales” al momento de indagar el displacer de satisfacción asociado a la represión.\nClínica de las neurosis de transferencia: conclusiones extraídas:\nRelación entre satisfacción de la pulsión y represión, a partir de su articulación con los distintos sistemas psíquicos (placer en un sistema, displacer en otro).\nRelación entre resistencia y represión: “su esencia consiste en rechazar algo de la conciencia” (fuerza de repulsión por estudio de las resistencias).\nRelación entre inconciente y represión: su operatoria requiere de la diferenciación entre lo conciente y lo inconciente (represión e inconciente como términos correlativos).\n\nAspectos del mecanismo de represión:\n\nFases de la represión: noción de representante psíquico de pulsión:\nRepresión primaria (como anterioridad lógica): inscripción del representante psíquico vía fijación (anticipación del mecanismo de la contrainvestidura según el cap. IV de “Lo inconciente”).\nRepresión secundaria o propiamente dicha: retorno de lo reprimido.\nPasaje de la represión como un estado de las representaciones a la represión como un proceso dinámico: a la repulsa conciente se agrega la fuerza de atracción de lo “reprimido desde antes”.\nCaracterísticas de la represión: proceso individual y móvil.\nAspectos del representante psíquico de  pulsión: representación y monto de afecto (destino de ambos componentes), la represión fracasada como objeto de estudio (emergencia del displacer).\n\nEstudio clínico del mecanismo de represión\n\nLa represión como un proceso de sustracción de investidura energética (libido): algo se sustrae, pero logra retornar de distintas maneras (cap. IV de Lo inconciente).\nArticulaciones y diferencias con el mecanismo de la formación sustitutiva y del síntoma (problemática de la investidura de la pulsión,  cap. IV de Lo inconciente).\n   Represión y psiconeurosis: histeria de angustia (inclusión de la angustia en el campo de\n      las neurosis de transferencia), histeria de conversión, neurosis obsesiva.\n\nLo inconciente (1915)\n\nCap.II: La multivocidad de lo inconciente y el punto de vista tópico\n\nEjes de lectura:\n\nMultivocidad del término”inconciente” (articulación y diferencia con “Nota…”)\nPerspectiva tópica, en relación con la noción de “localidad psíquica” y el comercio entre sistemas.\n\nNúcleos temáticos fundamentales:\n\n“Inconciente latente”: inconciente en sentido descriptivo, lo preconciente.\n“Inconciente permanente”: “lo reprimido inconciente” (abarcaría las acepciones dinámica y sistemática, según la “Nota…”).\nNomenclatura relativa a los distintos sistemas: Cc.Icc.\nFases del “acto psíquico”: punto de vista tópico.\nPasaje de lo inconciente a lo conciente: ¿doble inscripción de la representación o cambio de estado meramente funcional?\nDiferencia entre “tener oído” y “tener vivenciado” (eficacia o ineficacia de la interpretación analítica).\n\nCapítuloIV: Tópica y dinámica de la represión\n\nEjes de lectura:\n\nArticulación de los aspectos tópicos y dinámicos de la represión: mecanismos del proceso. Noción de contrainvestidura.\nPerspectiva económica.\nNeurosis de transferencia.\n\nNúcleos temáticos fundamentales:\n\nLa represión como un proceso dinámico que afecta a las representaciones y que acontece en la frontera de los sistemas Icc. y Cc.\nAspectos funcionales del proceso: sustracción de investidura, producción de contrainvestidura.\nNoción de contrainvestidura: articulación con la represión primaria y con la represión secundaria.\nAbordaje metapsicológico de la contrainvestidura: neurosis de transferencia (articulación con “La represión”: mecanismos que participan del proceso)\nProblemática de la investidura pulsional; lugar de la angustia.\n\nCapítulo V: Las propiedades particulares del sistema inconciente\n\nEjes de lectura:\n\nCaracterización del inconciente reprimido; su relación y diferencia con el funcionamiento del sistema Preconciente.\n\nNúcleos temáticos fundamentales:\n\nCaracterísticas del núcleo del inconciente: representantes psíquicos investidos.\nFuncionamiento del sistema Icc.: ausencia de contradicción y de negación, proceso primario (condensación y desplazamiento), atemporalidad, sustitución de la realidad exterior por la realidad psíquica (principio del placer).\nPropiedades del sistema Prcc. en oposición al sistema Icc.: inhibición de la tendencia a la descarga de la investidura, proceso secundario, ordenamiento temporal diacrónico, censura, principio de realidad, función de la memoria.\n\nCapítulo VII: El discernimiento de lo inconciente.\n\nEjes de lectura:\n\nDiferencia entre una representación conciente y una inconciente: supuesto de “la representación de objeto”.\n\nNúcleos temáticos fundamentales:\n\nEstudio de las neurosis narcisistas (en su diferencia con las de transferencia): resignación de las investiduras de objeto; particularidades de la relación establecida entre los sistemas psíquicos Cc.e Icc.\nAlteraciones del lenguaje en la esquizofrenia (lenguaje hipocondríaco o de órgano) materialidad de la palabra (“Las palabras son tratadas como cosas”).\nLa “representación de objeto”: representación-cosa (como investidura de la huella mnémica de la cosa), representación-palabra (traducción de la representación-cosa en palabra).\nRepresión en las neurosis de transferencia: a la representación cosa se le deniega su traducción en palabras.\n\nTótem y tabú (1913)\n\nCapítulo IV: El retorno del totemismo en la infancia.\n\nEjes de lectura:\n\nLugar fundamental del padre en la estructuración del psiquismo.\nAsesinato del padre: contenido y función del mito.\n\nNúcleos temáticos fundamentales:\n\nEl totemismo como sistema de normas y prohibiciones: pasaje de la naturaleza a la cultura.  Orígen del tótem: contenido y significación del mito en psicoanálisis.\nAmbivalencia, obediencia retrospectiva y conciencia de culpa: suscripción a un linaje por incorporación canibálica (identificación simbólica) de los rasgos del objeto (padre muerto).\nAsesinato del padre y represión primaria: el padre muerto como inscripción de la pérdida de una satisfacción originaria.\n\nPunto VI del programa: Transferencia, motor y obstáculo\n\nConceptos fundamentales:\n\nTransferencia\nAmor de transferencia\nResistencia\nRepetición (agieren)\n\nIdeas a desarrollar:\n\nRelación entre represión-retorno de lo reprimido y el lugar del analista en la transferencia.\n\nLa transferencia como fenómeno propio de las neurosis.\nCierre del inconciente: detención de las asociaciones-surgimiento del analista-reinicio de las asociaciones.\nLa transferencia como repetición de las condiciones del amor.\nEl enamoramiento: reedición de antiguos rasgos infantiles.\n\nLa transferencia como motor y obstáculo.\nLa transferencia positiva y negativa\nLa transferencia como resistencia.\n\nRecodar, repetir, reelaborar.\nLa repetición como forma del retorno de lo reprimido.\nLa repetición como límite al recuerdo.\nDiferencia entre repetición y recuerdo\nNadie puede ser ajusticiado in absentia o in efigie.\n\n- 1 -",
+  "guideSource": "Guia 4.doc"
 }
