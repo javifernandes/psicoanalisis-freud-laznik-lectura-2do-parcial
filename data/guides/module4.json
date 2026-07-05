@@ -1,0 +1,286 @@
+{
+  "id": "module4",
+  "label": "Módulo 4",
+  "title": "Represión, inconsciente, transferencia, ganancia de la enfermedad, angustia",
+  "blocks": [
+    {
+      "id": "theory",
+      "label": "Teóricos",
+      "title": "Puntos 9, 10, 11 y 12: Represión, inconsciente, transferencia y ganancia de la enfermedad",
+      "topics": [
+        {
+          "id": "m4-t-represion",
+          "label": "La represión",
+          "title": "La represión",
+          "eje": "Represión primordial, represión propiamente dicha y retorno de lo reprimido.",
+          "points": [
+            "Representante psíquico",
+            "Mociones pulsionales",
+            "Monto de afecto",
+            "Contracarga"
+          ],
+          "readingRefs": [
+            {
+              "title": "La represión"
+            }
+          ]
+        },
+        {
+          "id": "m4-t-icc-iii",
+          "label": "Lo inconsciente III",
+          "title": "Lo inconsciente, III: Sentimientos inconscientes",
+          "eje": "Problema de los sentimientos inconscientes.",
+          "points": [
+            "Representación",
+            "Afecto",
+            "Inconsciente dinámico"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, III: Sentimientos inconscientes"
+            }
+          ]
+        },
+        {
+          "id": "m4-t-icc",
+          "label": "Lo inconsciente",
+          "title": "Lo inconsciente, caps. II, IV, V, VI, VII",
+          "eje": "Punto de vista tópico, propiedades del sistema Icc y representación-cosa/palabra.",
+          "points": [
+            "Multivocidad",
+            "Tópica",
+            "Contrainvestidura",
+            "Representación cosa",
+            "Representación palabra"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, caps. II, IV, V, VI, VII"
+            }
+          ]
+        },
+        {
+          "id": "m4-t-transferencia",
+          "label": "Transferencia",
+          "title": "Sobre la dinámica de la transferencia / Amor de transferencia / Conferencia 27",
+          "eje": "Transferencia como motor y obstáculo de la cura.",
+          "points": [
+            "Transferencia positiva/negativa",
+            "Resistencia",
+            "Abstinencia",
+            "Lugar del analista"
+          ],
+          "readingRefs": [
+            {
+              "title": "Sobre la dinámica de la transferencia"
+            },
+            {
+              "title": "Puntualizaciones sobre el amor de transferencia"
+            },
+            {
+              "title": "27ª conferencia: La transferencia"
+            }
+          ]
+        },
+        {
+          "id": "m4-t-recordar",
+          "label": "Recordar, repetir",
+          "title": "Recordar, repetir, reelaborar",
+          "eje": "Límite del recuerdo y repetición en acto.",
+          "points": [
+            "Agieren",
+            "Neurosis de transferencia",
+            "Reelaboración"
+          ],
+          "readingRefs": [
+            {
+              "title": "Recordar, repetir, reelaborar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seminar",
+      "label": "Seminarios",
+      "title": "Puntos VI y VII: Formación de síntoma, ganancia de la enfermedad y angustia",
+      "topics": [
+        {
+          "id": "m4-s-conf23",
+          "label": "Conferencia 23",
+          "title": "Los caminos de la formación de síntoma",
+          "eje": "Síntoma como satisfacción sustitutiva.",
+          "points": [
+            "Fijación",
+            "Regresión",
+            "Ganancia de la enfermedad",
+            "Fantasías primordiales"
+          ],
+          "readingRefs": [
+            {
+              "title": "23ª conferencia: Los caminos de la formación de síntoma"
+            }
+          ]
+        },
+        {
+          "id": "m4-s-conf17-19",
+          "label": "Conferencias 17–19",
+          "title": "Sentido de los síntomas, fijación al trauma, resistencia y represión",
+          "eje": "Síntoma, trauma y resistencia.",
+          "points": [
+            "Sentido del síntoma",
+            "Fijación",
+            "Inconsciente",
+            "Resistencia"
+          ],
+          "readingRefs": [
+            {
+              "title": "17ª conferencia: El sentido de los síntomas"
+            },
+            {
+              "title": "18ª conferencia: La fijación al trauma, lo inconsciente"
+            },
+            {
+              "title": "19ª conferencia: Resistencia y represión"
+            }
+          ]
+        },
+        {
+          "id": "m4-s-angustia",
+          "label": "Angustia",
+          "title": "Sobre el psicoanálisis silvestre / 25ª conferencia: La angustia",
+          "eje": "Angustia y libido no aplicada.",
+          "points": [
+            "Libido no aplicada",
+            "Angustia infantil",
+            "Represión",
+            "Segunda teoría de la angustia"
+          ],
+          "readingRefs": [
+            {
+              "title": "Sobre el psicoanálisis silvestre"
+            },
+            {
+              "title": "25ª conferencia: La angustia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "label": "Prácticos",
+      "title": "Puntos V y VI: Inconsciente, represión y técnica",
+      "topics": [
+        {
+          "id": "m4-p-nota",
+          "label": "Nota sobre inconsciente",
+          "title": "Nota sobre el concepto de lo inconsciente en psicoanálisis",
+          "eje": "Inconsciente descriptivo, dinámico y sistemático.",
+          "points": [
+            "Descriptivo",
+            "Dinámico",
+            "Sistemático"
+          ],
+          "readingRefs": [
+            {
+              "title": "Nota sobre el concepto de lo inconsciente en psicoanálisis"
+            }
+          ]
+        },
+        {
+          "id": "m4-p-represion",
+          "label": "La represión",
+          "title": "La represión",
+          "eje": "Metapsicología de la defensa.",
+          "points": [
+            "Represión primordial",
+            "Represión propiamente dicha",
+            "Retorno de lo reprimido"
+          ],
+          "readingRefs": [
+            {
+              "title": "La represión"
+            }
+          ]
+        },
+        {
+          "id": "m4-p-icc-ii",
+          "label": "Lo inconsciente II",
+          "title": "Lo inconsciente, II: La multivocidad de lo inconsciente y el punto de vista tópico",
+          "eje": "Punto de vista tópico.",
+          "points": [
+            "Multivocidad",
+            "Sistema Icc",
+            "Hipótesis tópica"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, II: La multivocidad de lo inconsciente y el punto de vista tópico"
+            }
+          ]
+        },
+        {
+          "id": "m4-p-icc-iv",
+          "label": "Lo inconsciente IV",
+          "title": "Lo inconsciente, IV: Tópica y dinámica de la represión",
+          "eje": "Tópica y dinámica de la represión.",
+          "points": [
+            "Contrainvestidura",
+            "Defensa",
+            "Retorno de lo reprimido"
+          ],
+          "readingRefs": [
+            {
+              "title": "Lo inconsciente, IV: Tópica y dinámica de la represión"
+            }
+          ]
+        },
+        {
+          "id": "m4-p-totem",
+          "label": "Tótem y tabú",
+          "title": "Tótem y tabú, IV, puntos 5 y 6",
+          "eje": "Padre, culpa e identificación.",
+          "points": [
+            "Asesinato del padre",
+            "Obediencia retrospectiva",
+            "Incorporación oral",
+            "Culpa"
+          ],
+          "readingRefs": [
+            {
+              "title": "Tótem y tabú, IV, puntos 5 y 6"
+            }
+          ]
+        },
+        {
+          "id": "m4-p-tecnica",
+          "label": "Técnica",
+          "title": "Transferencia, iniciación del tratamiento y recordar-repetir-reelaborar",
+          "eje": "Técnica analítica y transferencia.",
+          "points": [
+            "Inicio del tratamiento",
+            "Transferencia",
+            "Resistencia",
+            "Repetición",
+            "Reelaboración"
+          ],
+          "readingRefs": [
+            {
+              "title": "Sobre la dinámica de la transferencia"
+            },
+            {
+              "title": "Puntualizaciones sobre el amor de transferencia"
+            },
+            {
+              "title": "Sobre la iniciación del tratamiento"
+            },
+            {
+              "title": "Recordar, repetir, reelaborar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

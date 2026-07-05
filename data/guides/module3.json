@@ -1,0 +1,302 @@
+{
+  "id": "module3",
+  "label": "Módulo 3",
+  "title": "Pulsión, Fantasía y Narcisismo",
+  "blocks": [
+    {
+      "id": "theory",
+      "label": "Teóricos",
+      "title": "Puntos 7 y 8: Irrupción de la sexualidad. Enmienda de la teoría traumática",
+      "topics": [
+        {
+          "id": "m3-t-conf20",
+          "label": "Conferencia 20",
+          "title": "La vida sexual de los seres humanos",
+          "eje": "¿Qué puede averiguarse de la vida sexual del niño?",
+          "points": [
+            "Libido",
+            "Apuntalamiento",
+            "Chupeteo y ganancia de placer",
+            "Caracteres decisivos de la sexualidad infantil"
+          ],
+          "readingRefs": [
+            {
+              "title": "Conferencias 20, 21, 22 y 23"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-conf21",
+          "label": "Conferencia 21",
+          "title": "Desarrollo libidinal y organizaciones sexuales",
+          "eje": "Sexualidad infantil, organizaciones sexuales y desarrollo libidinal.",
+          "points": [
+            "Organizaciones pregenitales",
+            "Objeto",
+            "Fijación",
+            "Desarrollo libidinal"
+          ],
+          "readingRefs": [
+            {
+              "title": "Conferencias 20, 21, 22 y 23"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-conf22",
+          "label": "Conferencia 22",
+          "title": "Algunas perspectivas sobre el desarrollo y la regresión",
+          "eje": "Fijación, regresión y series complementarias.",
+          "points": [
+            "Fijación",
+            "Regresión",
+            "Series complementarias",
+            "Síntoma"
+          ],
+          "readingRefs": [
+            {
+              "title": "Conferencias 20, 21, 22 y 23"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-conf23",
+          "label": "Conferencia 23",
+          "title": "Los caminos de la formación de síntoma",
+          "eje": "Formación de síntoma y satisfacción sustitutiva.",
+          "points": [
+            "Síntoma",
+            "Fantasía",
+            "Satisfacción sustitutiva",
+            "Realidad psíquica"
+          ],
+          "readingRefs": [
+            {
+              "title": "Conferencias 20, 21, 22 y 23"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-pulsiones-113-122",
+          "label": "Pulsiones",
+          "title": "Pulsiones y destinos de pulsión",
+          "eje": "Concepto de pulsión y sus componentes.",
+          "points": [
+            "Diferencia pulsión/instinto",
+            "Esfuerzo",
+            "Meta",
+            "Objeto",
+            "Fuente",
+            "Destinos de pulsión"
+          ],
+          "readingRefs": [
+            {
+              "title": "Pulsiones y destinos de pulsión",
+              "pages": "113–122"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-cinco-conf-iv",
+          "label": "Cinco conferencias IV",
+          "title": "Cinco conferencias sobre psicoanálisis, IV",
+          "eje": "Sexualidad infantil y etiología de las neurosis.",
+          "points": [
+            "Zonas erógenas",
+            "Autoerotismo",
+            "Diques de la represión",
+            "Neurosis"
+          ],
+          "readingRefs": [
+            {
+              "title": "Cinco conferencias sobre psicoanálisis, IV"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-teorias-sexuales",
+          "label": "Teorías sexuales infantiles",
+          "title": "Sobre las teorías sexuales infantiles",
+          "eje": "Investigación sexual infantil y teorías típicas.",
+          "points": [
+            "Premisa universal del pene",
+            "Teorías típicas",
+            "Diferencia de los sexos",
+            "Complejo nuclear de las neurosis"
+          ],
+          "readingRefs": [
+            {
+              "title": "Sobre las teorías sexuales infantiles"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-esclarecimiento",
+          "label": "Esclarecimiento sexual",
+          "title": "El esclarecimiento sexual del niño",
+          "eje": "Lugar del esclarecimiento sexual y articulación con teorías sexuales infantiles.",
+          "points": [
+            "Niño investigador",
+            "Saber sexual",
+            "Pequeño Hans"
+          ],
+          "readingRefs": [
+            {
+              "title": "El esclarecimiento sexual del niño"
+            }
+          ]
+        },
+        {
+          "id": "m3-t-narcisismo",
+          "label": "Narcisismo",
+          "title": "Introducción del narcisismo",
+          "eje": "Constitución del yo y teoría de la libido.",
+          "points": [
+            "Narcisismo primario/secundario",
+            "Libido yoica",
+            "Libido de objeto",
+            "Ideal del yo",
+            "Yo ideal"
+          ],
+          "readingRefs": [
+            {
+              "title": "Introducción del narcisismo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seminar",
+      "label": "Seminarios",
+      "title": "Puntos IV y V: Revisión de la teoría traumática. Constitución del narcisismo",
+      "topics": [
+        {
+          "id": "m3-s-creador",
+          "label": "Creador literario",
+          "title": "El creador literario y el fantaseo",
+          "eje": "Fantasía, deseo y creación.",
+          "points": [
+            "Juego infantil",
+            "Fantasía",
+            "Ganancia de placer",
+            "Creación poética"
+          ],
+          "readingRefs": [
+            {
+              "title": "El creador literario y el fantaseo"
+            }
+          ]
+        },
+        {
+          "id": "m3-s-pies",
+          "label": "Pies / zapatos",
+          "title": "Experiencias y ejemplos extraídos de la práctica analítica: Pies (zapatos) abochornados",
+          "eje": "Ejemplo clínico de sexualidad infantil, transferencia y rasgo de carácter.",
+          "points": [
+            "Transferencia",
+            "Escena infantil",
+            "Envidia del pene",
+            "Rasgo de carácter"
+          ],
+          "readingRefs": [
+            {
+              "title": "Experiencias y ejemplos extraídos de la práctica analítica: Pies (zapatos) abochornados"
+            }
+          ]
+        },
+        {
+          "id": "m3-s-conf26",
+          "label": "Conferencia 26",
+          "title": "La teoría de la libido y el narcisismo",
+          "eje": "Libido y narcisismo.",
+          "points": [
+            "Autoerotismo",
+            "Narcisismo",
+            "Libido yoica/de objeto",
+            "Neurosis narcisistas"
+          ],
+          "readingRefs": [
+            {
+              "title": "26ª conferencia: La teoría de la libido y el narcisismo"
+            }
+          ]
+        },
+        {
+          "id": "m3-s-hallazgo",
+          "label": "Hallazgo de objeto",
+          "title": "Tres ensayos de teoría sexual, cap. III, punto 5: El hallazgo de objeto",
+          "eje": "Objeto pulsional y objeto de amor.",
+          "points": [
+            "Hallazgo de objeto",
+            "Objeto reencontrado",
+            "Objeto perdido",
+            "Amor"
+          ],
+          "readingRefs": [
+            {
+              "title": "Tres ensayos de teoría sexual, cap. III, punto 5: El hallazgo de objeto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "label": "Prácticos",
+      "title": "Punto IV: Crítica de la etiología: sexualidad y represión",
+      "topics": [
+        {
+          "id": "m3-p-mis-tesis",
+          "label": "Mis tesis",
+          "title": "Mis tesis sobre el papel de la sexualidad en la etiología de las neurosis",
+          "eje": "Pasaje del trauma a la fantasía.",
+          "points": [
+            "Sexualidad infantil",
+            "Fantasías",
+            "Síntoma",
+            "Etiología"
+          ],
+          "readingRefs": [
+            {
+              "title": "Mis tesis sobre el papel de la sexualidad en la etiología de las neurosis"
+            }
+          ]
+        },
+        {
+          "id": "m3-p-tres-ensayos",
+          "label": "Tres ensayos",
+          "title": "Tres ensayos de teoría sexual, cap. I puntos 4 y 5, y cap. II",
+          "eje": "Sexualidad pulsional y sexualidad infantil.",
+          "points": [
+            "Pulsiones parciales",
+            "Zonas erógenas",
+            "Autoerotismo",
+            "Apuntalamiento"
+          ],
+          "readingRefs": [
+            {
+              "title": "Tres ensayos de teoría sexual, cap. I puntos 4 y 5, y cap. II"
+            }
+          ]
+        },
+        {
+          "id": "m3-p-dora",
+          "label": "Dora",
+          "title": "Fragmento de análisis de un caso de histeria (Dora)",
+          "eje": "Síntoma como satisfacción sexual sustitutiva.",
+          "points": [
+            "Solicitación somática",
+            "Fantasía inconsciente",
+            "Sentido del síntoma"
+          ],
+          "readingRefs": [
+            {
+              "title": "Fragmento de análisis de un caso de histeria (Dora)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
