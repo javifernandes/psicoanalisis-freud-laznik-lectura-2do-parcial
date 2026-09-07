@@ -97,11 +97,11 @@
     .tabs {
       max-width: 1220px; width: calc(100% - 32px); margin: 8px auto 14px; padding: 6px;
       background: rgba(23,24,43,.84); border: 1px solid var(--border); border-radius: 18px;
-      display: flex; gap: 8px; align-items: center; flex: 0 0 auto;
+      display: flex; gap: 8px; align-items: center; flex-wrap: wrap; flex: 0 0 auto;
     }
     .tab {
-      flex: 0 0 180px; background: transparent; color: var(--muted); border: 1px solid transparent;
-      border-radius: 14px; padding: 12px 14px; font-weight: 800; cursor: pointer; font-size: 15px;
+      flex: 1 1 112px; max-width: 140px; background: transparent; color: var(--muted); border: 1px solid transparent;
+      border-radius: 14px; padding: 12px 10px; font-weight: 800; cursor: pointer; font-size: 15px;
     }
     .tab.active {
       background: var(--panel2); color: var(--text); border-color: var(--border);
@@ -486,6 +486,7 @@
     */
     let readings = [];
     let guides = [];
+    // Se conserva la clave histórica para no perder el progreso de Módulos 3 y 4.
     const STORAGE_KEY = "freud-laznik-modulos-3-4-progress-v15";
     const LEGACY_KEYS = [
       "freud-laznik-modulos-3-4-progress-v14", "freud-laznik-modulos-3-4-progress-v13", "freud-laznik-modulos-3-4-progress-v12", "freud-laznik-modulos-3-4-progress-v11", "freud-laznik-modulos-3-4-progress-v10", "freud-laznik-modulos-3-4-progress-v9",
@@ -494,7 +495,7 @@
       "freud-laznik-modulos-3-4-progress-v4", "freud-laznik-modulos-3-4-progress-v3",
       "freud-laznik-modulos-3-4-progress-v2", "freud-laznik-modulos-3-4-progress-v1"
     ];
-    const modules = ["Módulo 3", "Módulo 4"];
+    const modules = ["Módulo 3", "Módulo 4", "Módulo 5", "Módulo 6"];
     const GUIDE_TAB = "Programa / Guías";
     const blocks = ["Teóricos", "Prácticos", "Seminarios"];
     let activeModule = localStorage.getItem("freud-active-module") || "Módulo 3";
@@ -514,6 +515,34 @@
       {
         bigger: "pulsiones y destinos de pulsion::113 122",
         smaller: "pulsiones y destinos de pulsion::121 122"
+      },
+      {
+        bigger: "mas alla del principio de placer caps i a vi::11 12 17 18 23 24 33 34 36 42 59 n 27",
+        smaller: "mas alla del principio de placer caps ii y iii::12 17 18 23"
+      },
+      {
+        bigger: "mas alla del principio de placer caps i a vi::11 12 17 18 23 24 33 34 36 42 59 n 27",
+        smaller: "mas alla del principio de placer caps iv v y vi::24 33 34 36 42 59 n 27"
+      },
+      {
+        bigger: "mas alla del principio de placer caps i a vi::11 12 17 18 23 24 33 34 36 42 59 n 27",
+        smaller: "mas alla del principio de placer cap iii::18 20"
+      },
+      {
+        bigger: "mas alla del principio de placer caps ii y iii::12 17 18 23",
+        smaller: "mas alla del principio de placer cap iii::18 20"
+      },
+      {
+        bigger: "el yo y el ello caps i ii iii y v::15 22 21 29 33 37 49 59",
+        smaller: "el yo y el ello caps i ii iii y v::15 20 21 29 33 37 49 57"
+      },
+      {
+        bigger: "inhibicion sintoma y angustia cap v y cap xi addenda a a::106 113 147 150",
+        smaller: "inhibicion sintoma y angustia cap xi addenda a resistencia y contrainvestidura::147 150"
+      },
+      {
+        bigger: "inhibicion sintoma y angustia caps iv vii viii y xi b::97 105 118 124 125 135 154 157",
+        smaller: "inhibicion sintoma y angustia::123 124"
       }
     ];
     function normalizedIdForInclusion(id) {
@@ -638,7 +667,8 @@
     }
     
     function estimatePages(pages) {
-      const s = String(pages || "");
+      // Las referencias a notas (por ejemplo, "59 n. 27") no son páginas extra.
+      const s = String(pages || "").replace(/\bn\.?\s*\d+\b/gi, "");
       let total = 0;
       const re = /(\d+)\s*[–-]\s*(\d+)|(\d+)/g;
       let m;
@@ -899,13 +929,14 @@
         .trim()
         .replace(/\s+/g, " ");
     }
-    function findLinkedReadings(topic) {
+    function findLinkedReadings(topic, moduleName) {
       const refs = topic.readingRefs || [];
       const matches = [];
       refs.forEach(ref => {
         const refTitle = normalizeText(ref.title);
         const refPages = normalizeText(ref.pages || "");
         readings.forEach((reading, i) => {
+          if (reading.module !== moduleName) return;
           const readingTitle = normalizeText(reading.title);
           const pages = normalizeText(reading.canonicalPages || reading.pages || "");
           const titleMatches = refTitle && (readingTitle.includes(refTitle) || refTitle.includes(readingTitle));
@@ -924,7 +955,7 @@
       }
       let selected = topics.find(item => item.topic.id === activeGuideTopic) || topics[0];
       activeGuideTopic = selected.topic.id;
-      const linked = findLinkedReadings(selected.topic);
+      const linked = findLinkedReadings(selected.topic, selected.guide.label);
       const linkedDone = linked.filter(r => isChecked(r, r.i)).length;
       const isGuideOpen = (key) => guideOpen[key] !== false;
       app.innerHTML = `
@@ -1040,13 +1071,20 @@
       if (!e.target.closest(".help") && !e.target.closest(".dup-mark") && !e.target.closest("#helpBubble")) hideHelp();
     });
     async function loadData() {
-      const [readingsRes, module3Res, module4Res] = await Promise.all([
+      const [readingsRes, module3Res, module4Res, module5Res, module6Res] = await Promise.all([
         fetch("./data/readings.json"),
         fetch("./data/guides/module3.json"),
-        fetch("./data/guides/module4.json")
+        fetch("./data/guides/module4.json"),
+        fetch("./data/guides/module5.json"),
+        fetch("./data/guides/module6.json")
       ]);
       readings = await readingsRes.json();
-      guides = [await module3Res.json(), await module4Res.json()];
+      guides = [
+        await module3Res.json(),
+        await module4Res.json(),
+        await module5Res.json(),
+        await module6Res.json()
+      ];
     }
     async function initApp() {
       try {

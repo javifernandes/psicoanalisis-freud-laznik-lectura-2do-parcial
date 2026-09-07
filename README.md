@@ -2,6 +2,8 @@
 
 Aplicación estática para organizar lecturas de Psicoanálisis Freud, cátedra Laznik.
 
+El tablero cubre los módulos 3, 4, 5 y 6. Los módulos 5 y 6 corresponden al tercer parcial/integrador y fueron modelados a partir de las Guías 5 y 6 y del programa oficial 2026.
+
 ## Desarrollo local
 
 ```bash
@@ -21,6 +23,10 @@ Archivos principales:
 - `data/readings.json`
 - `data/guides/module3.json`
 - `data/guides/module4.json`
+- `data/guides/module5.json`
+- `data/guides/module6.json`
+
+Las cards incluyen sólo bibliografía obligatoria. La vista `Programa / Guías` conserva los ejes y desarrollos pedagógicos de las guías. Para los módulos 5 y 6, la ubicación física inicial es el tomo Amorrortu indicado por el programa; queda pendiente auditar esos recortes contra Libro 1 / Libro 2.
 
 ## Nota
 

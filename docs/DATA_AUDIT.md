@@ -11,6 +11,22 @@ La fuente de verdad para las lecturas es:
 
 No asumir que Libro 2 es mejor sólo porque corresponde al segundo parcial.
 
+## Módulos 5 y 6
+
+Las nuevas cards se extrajeron de la bibliografía obligatoria del programa oficial 2026 y se contrastaron con las Guías 5 y 6. La bibliografía electiva permanece como contexto de programa y no suma al progreso.
+
+Hasta completar un relevamiento de los apuntes físicos, la fuente recomendada es el tomo Amorrortu consignado en el programa. No se debe afirmar que el recorte está en Libro 1 o Libro 2 sin esa auditoría.
+
+Inclusiones totales nuevas:
+
+- `Más allá del principio de placer`, caps. I a VI, contiene los recortes teóricos de caps. II y III y de caps. IV, V y VI, además del recorte de cap. III del módulo 6.
+- `Más allá del principio de placer`, caps. II y III, contiene el recorte de cap. III, pp. 18–20.
+- `El yo y el ello`, pp. 15–22, 21–29, 33–37, 49–59, contiene el recorte pp. 15–20, 21–29, 33–37, 49–57.
+- `Inhibición, síntoma y angustia`, pp. 106–113, 147–150, contiene el recorte pp. 147–150.
+- `Inhibición, síntoma y angustia`, pp. 97–105, 118–124, 125–135, 154–157, contiene el recorte pp. 123–124.
+
+Las superposiciones parciales no implican progreso. Por ejemplo, `El problema económico del masoquismo`, pp. 166–171, y pp. 171–172, comparten sólo una página y deben marcarse por separado.
+
 ## Casos auditados
 
 ### Pulsiones y destinos de pulsión

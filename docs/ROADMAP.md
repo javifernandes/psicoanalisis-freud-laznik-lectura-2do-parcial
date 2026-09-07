@@ -99,7 +99,11 @@ Actualizar README del repo para explicar:
 ## Nice to have
 
 - Exportar/importar progreso local.
-- Agregar módulos 5 y 6.
 - Agregar notas personales por card.
 - Deep links por card o tópico.
 - Modo sólo pendientes.
+
+## Completado
+
+- Agregar módulos 5 y 6 desde las guías de cátedra y el programa oficial 2026.
+- Conservar el progreso previo de módulos 3 y 4 al ampliar el tablero.

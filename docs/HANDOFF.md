@@ -19,7 +19,7 @@ La hipótesis de cortes por parcial quedó:
 - 2º parcial: módulos 3 y 4.
 - 3º parcial/integrador: módulos 5 y 6.
 
-La app actual se concentra en módulos 3 y 4.
+La app cubre los módulos 3, 4, 5 y 6. Los módulos 5 y 6 corresponden al tercer parcial/integrador y se incorporaron desde las Guías 5 y 6 y el programa oficial 2026.
 
 ## Módulos relevantes
 
@@ -46,6 +46,18 @@ Bloques guía:
 - Teóricos: represión, inconsciente, transferencia, ganancia de la enfermedad.
 - Seminarios: formación de síntoma, ganancia de la enfermedad, angustia.
 - Prácticos: inconsciente, represión, tótem/tabú, técnica y transferencia.
+
+### Módulo 5
+
+- Teóricos: puntos 13 y 14, ruptura del principio del placer y segundo dualismo pulsional.
+- Prácticos: punto VII, pulsión de muerte y lo no ligado.
+- Seminarios: puntos VIII y IX, complejos de Edipo y castración, y sexualidad femenina.
+
+### Módulo 6
+
+- Teóricos: punto 16, segunda tópica y resistencias estructurales.
+- Prácticos: punto VIII, inconsciente estructural y obstáculos en la cura.
+- Seminarios: punto X, tercera versión de la teoría de la angustia.
 
 ## Modelo conceptual acordado
 
@@ -182,6 +194,8 @@ index.html
 data/readings.json
 data/guides/module3.json
 data/guides/module4.json
+data/guides/module5.json
+data/guides/module6.json
 ```
 
 Para probar local:

@@ -111,6 +111,34 @@ REPRESIÓN, INCONCIENTE, TRANSFERENCIA, GANANCIA DE LA ENFERMEDAD, ANGUSTIA
 
 Nota: la guía puede escribir "inconciente" sin s; los textos de Freud/Amorrortu a veces aparecen como "inconsciente". Mantener el texto oficial en títulos de módulo, pero normalizar internamente para búsqueda.
 
+### Módulo 5
+
+```txt
+LA RUPTURA DEL PRINCIPIO DEL PLACER, COMPLEJO DE EDIPO Y COMPLEJO DE CASTRACIÓN, Y SEXUALIDAD FEMENINA
+```
+
+Bloques:
+
+```txt
+Teóricos: Puntos 13 y 14. Más allá del principio del placer. Pulsión de muerte. Ruptura del principio del placer y segundo dualismo pulsional
+Prácticos: Punto VII. Más allá del principio del placer: pulsión de muerte y lo no ligado
+Seminarios: Puntos VIII y IX. Complejo de Edipo y complejo de castración. Sexualidad femenina
+```
+
+### Módulo 6
+
+```txt
+LA SEGUNDA TÓPICA, LAS RESISTENCIAS ESTRUCTURALES Y LA 3º VERSIÓN DE LA TEORÍA DE LA ANGUSTIA
+```
+
+Bloques:
+
+```txt
+Teóricos: Punto 16. Todo lo reprimido es inconsciente, aunque no todo lo inconsciente coincide con lo reprimido
+Prácticos: Punto VIII. Inconsciente descriptivo, dinámico y estructural. Segunda tópica y obstáculos en la cura
+Seminarios: Punto X. La 3º versión de la teoría de la angustia
+```
+
 ## Ejemplo de tópico guía real del Módulo 3
 
 El usuario mencionó que la guía 3 dice:
