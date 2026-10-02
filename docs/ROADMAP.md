@@ -93,7 +93,7 @@ Actualizar README del repo para explicar:
 - cómo usar;
 - cómo correr local;
 - cómo contribuir;
-- qué significa Libro 1 / Libro 2 / Amorrortu;
+- qué significa Apunte 1 / Apunte 2 / Amorrortu;
 - disclaimer: no oficial.
 
 ## Nice to have

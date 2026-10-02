@@ -16,7 +16,7 @@ No es sólo un checklist. Es una guía de lectura crítica que cruza:
 
 1. Programa oficial / guías de lectura de la cátedra.
 2. Lecturas efectivas por módulo, bloque y unidad.
-3. Fuentes físicas disponibles: Libro 1, Libro 2, Amorrortu/PDF.
+3. Fuentes físicas disponibles: Apunte 1, Apunte 2, Amorrortu/PDF.
 4. Progreso local de cada estudiante en `localStorage`.
 
 ## Reglas importantes

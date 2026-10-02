@@ -25,8 +25,12 @@ Archivos principales:
 - `data/guides/module4.json`
 - `data/guides/module5.json`
 - `data/guides/module6.json`
+- `data/sources/index.json`
+- `data/sources/apunte2.json`
 
-Las cards incluyen sólo bibliografía obligatoria. La vista `Programa / Guías` conserva los ejes y desarrollos pedagógicos de las guías. Para los módulos 5 y 6, la ubicación física inicial es el tomo Amorrortu indicado por el programa; queda pendiente auditar esos recortes contra Libro 1 / Libro 2.
+Las cards incluyen sólo bibliografía obligatoria. La vista `Programa / Guías` conserva los ejes y desarrollos pedagógicos de las guías. Para los módulos 5 y 6, la ubicación física inicial es el tomo Amorrortu indicado por el programa; queda pendiente auditar esos recortes contra Apunte 1 / Apunte 2.
+
+En el tablero se puede alternar entre páginas `Amorrortu` y páginas de `Apuntes`. La pestaña `Apuntes` reúne los índices físicos disponibles: hoy incorpora el índice manual del Apunte 2 y deja visible que el Apunte 1 todavía no fue relevado. Una obra puede tener varias apariciones porque los apuntes contienen duplicados o recortes distintos.
 
 ## Nota
 

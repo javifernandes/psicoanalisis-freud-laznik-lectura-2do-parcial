@@ -4,11 +4,11 @@
 
 El usuario está cursando Psicoanálisis Freud, cátedra Laznik, UBA. La materia está organizada en módulos, bloques y guías de lectura. La fotocopiadora tiene dos tomos de apuntes:
 
-- Libro 1: rotulado como primer parcial, pero contiene textos adelantados de módulos 3/4.
-- Libro 2: rotulado como segundo/tercer parcial, contiene módulos 3, 4, 5 y 6 mezclados.
+- Apunte 1: rotulado como primer parcial, pero contiene textos adelantados de módulos 3/4.
+- Apunte 2: rotulado como segundo/tercer parcial, contiene módulos 3, 4, 5 y 6 mezclados.
 
 El objetivo inicial era ordenar qué leer para el segundo parcial. Durante el trabajo se descubrió que no alcanza con listar apuntes porque:
-- hay textos repetidos entre libros;
+- hay textos repetidos entre apuntes;
 - hay fragmentos parciales;
 - algunas lecturas se retoman en distintos módulos/bloques;
 - la fotocopia tiene al menos un error grave.
@@ -111,8 +111,8 @@ Responde: ¿dónde lo leo?
 
 Puede ser:
 
-- Libro 1
-- Libro 2
+- Apunte 1
+- Apunte 2
 - Amorrortu XIII
 - PDF externo
 

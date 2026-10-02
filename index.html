@@ -120,6 +120,18 @@
       font-size: 13px; white-space: nowrap; cursor: pointer; user-select: none; padding-right: 4px;
     }
     .toggle input { width: 15px; height: 15px; accent-color: var(--accent); }
+    .page-mode {
+      display: inline-flex; align-items: center; gap: 3px; padding: 3px;
+      border: 1px solid var(--border); border-radius: 999px; background: rgba(15,16,32,.54);
+      white-space: nowrap;
+    }
+    .page-mode-label { color: var(--muted); font-size: 11.5px; padding: 0 5px 0 7px; }
+    .page-mode-btn {
+      border: 0; border-radius: 999px; padding: 6px 9px; background: transparent;
+      color: var(--muted); font: inherit; font-size: 12px; font-weight: 750; cursor: pointer;
+    }
+    .page-mode-btn.active { background: var(--panel2); color: var(--text); box-shadow: inset 0 0 0 1px rgba(240,179,91,.24); }
+    .page-mode-btn:hover { color: var(--text); }
 
     main {
       max-width: 1220px; width: 100%; margin: 0 auto; padding: 0 16px 16px;
@@ -233,6 +245,12 @@
       display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
     }
     .bookline strong { color: var(--accent); font-weight: 750; }
+    .source-locator {
+      display: inline-flex; align-items: center; min-height: 19px; padding: 1px 7px;
+      border-radius: 999px; border: 1px solid var(--border);
+      background: rgba(255,255,255,.035); color: var(--muted); font-size: 11px;
+      font-weight: 800; cursor: help;
+    }
     .dup-mark {
       display: inline-flex; align-items: center; justify-content: center; height: 17px; min-width: 17px;
       padding: 0 5px; border-radius: 999px; border: 1px solid rgba(240,179,91,.35);
@@ -243,7 +261,7 @@
       border: 1px solid var(--border); border-radius: 999px; color: var(--muted);
       font-size: 11px; cursor: pointer; user-select: none;
     }
-    .help:hover, .dup-mark:hover { color: var(--text); border-color: var(--accent); }
+    .help:hover, .dup-mark:hover, .source-locator:hover { color: var(--text); border-color: var(--accent); }
     #helpBubble {
       display: none; position: fixed; z-index: 9999; max-width: 320px;
       background: #252743; color: var(--text); border: 1px solid rgba(240,179,91,.35);
@@ -271,6 +289,16 @@
       border: 1px solid rgba(240,179,91,.26);
       color: #f1dfbe;
     }
+    .source-locations {
+      margin-top: 9px; padding: 9px 10px; border-radius: 11px;
+      border: 1px solid var(--border); background: rgba(255,255,255,.025);
+    }
+    .source-locations-title { color: var(--text); font-weight: 850; margin-bottom: 3px; }
+    .source-locations-note { color: var(--muted); font-size: 11.5px; margin-bottom: 7px; }
+    .source-location-row { display: flex; gap: 7px; align-items: baseline; flex-wrap: wrap; }
+    .source-location-row + .source-location-row { margin-top: 5px; }
+    .source-location-page { color: var(--text); font-weight: 800; white-space: nowrap; }
+    .source-location-extra { color: var(--muted); }
     .external-link {
       display: inline-flex;
       margin-top: 7px;
@@ -448,6 +476,73 @@
     }
     .raw-guide-text { white-space: pre-wrap; color: var(--muted); font-size: 13px; margin-top: 10px; }
 
+    .linked-source-locations { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+    .source-view {
+      height: 100%; min-height: 0; overflow: auto; scrollbar-width: thin;
+      scrollbar-color: rgba(240,179,91,.45) transparent;
+      background: rgba(23,24,43,.76); border: 1px solid var(--border); border-radius: 20px;
+      padding: 22px;
+    }
+    .source-intro {
+      display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .8fr);
+      gap: 18px; align-items: start; padding-bottom: 20px; border-bottom: 1px solid var(--border);
+    }
+    .source-kicker {
+      color: var(--muted); font-size: 12px; font-weight: 850; text-transform: uppercase;
+      letter-spacing: .05em; margin-bottom: 7px;
+    }
+    .source-intro h2 { margin: 0; font-size: clamp(23px, 3vw, 32px); line-height: 1.08; }
+    .source-intro p { margin: 10px 0 0; color: var(--muted); max-width: 750px; }
+    .source-stats { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    .source-stat {
+      border: 1px solid var(--border); border-radius: 999px; padding: 6px 9px;
+      color: var(--muted); font-size: 12px; background: rgba(32,34,58,.55);
+    }
+    .source-stat strong { color: var(--text); }
+    .source-caveats {
+      margin: 0; padding: 13px 14px 13px 31px; border-radius: 14px;
+      border: 1px solid rgba(240,179,91,.24); background: rgba(240,179,91,.07);
+      color: #ddd7c9; font-size: 12.5px;
+    }
+    .source-caveats li + li { margin-top: 5px; }
+    .source-results { margin-top: 18px; }
+    .source-results-summary { color: var(--muted); font-size: 12.5px; margin-bottom: 10px; }
+    .source-pending-list { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+    .source-pending {
+      display: inline-flex; gap: 7px; align-items: center; padding: 7px 9px; border-radius: 10px;
+      border: 1px dashed rgba(255,255,255,.18); color: var(--muted); font-size: 12px;
+    }
+    .source-pending strong { color: var(--text); }
+    .source-index-section + .source-index-section { margin-top: 26px; }
+    .source-index-heading {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+      padding-bottom: 10px; border-bottom: 1px solid var(--border);
+    }
+    .source-index-heading h3 { margin: 0; font-size: 19px; }
+    .source-index-heading span { color: var(--muted); font-size: 12px; }
+    .source-work {
+      display: grid; grid-template-columns: minmax(210px, 1fr) minmax(0, 2.2fr);
+      gap: 18px; padding: 16px 0; border-top: 1px solid var(--border);
+    }
+    .source-work:first-of-type { border-top: 0; }
+    .source-work-title { margin: 0; font-size: 15px; line-height: 1.28; }
+    .source-count { color: var(--muted); font-size: 11.5px; margin-top: 5px; }
+    .source-entry {
+      display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 11px; align-items: start;
+      padding: 10px 11px; border-radius: 12px; background: rgba(32,34,58,.52);
+      border: 1px solid rgba(255,255,255,.075);
+    }
+    .source-entry + .source-entry { margin-top: 7px; }
+    .source-page {
+      display: inline-flex; justify-content: center; padding: 5px 7px; border-radius: 9px;
+      background: rgba(255,255,255,.045); color: var(--text); font-size: 12px; font-weight: 850;
+      white-space: nowrap;
+    }
+    .source-entry-label { color: var(--text); font-size: 13.5px; font-weight: 750; }
+    .source-entry-meta { color: var(--muted); font-size: 12px; margin-top: 3px; }
+    .source-entry-note { color: #d5d1be; font-size: 12px; margin-top: 4px; }
+
     @media (max-width: 980px) {
       body { overflow: auto; height: auto; }
       .page { height: auto; min-height: 100vh; }
@@ -457,12 +552,21 @@
       .tab { flex: 1 1 160px; }
       .tab-tools { width: 100%; margin-left: 0; }
       .search { width: 100%; max-width: none; flex: 1; }
+      .page-mode { flex: 0 0 auto; }
       main { flex: unset; }
       .board { grid-template-columns: 1fr; height: auto; }
       .column-body { overflow: visible; }
       .guide-view { grid-template-columns: 1fr; height: auto; }
       .guide-tree,
       .guide-detail { overflow: visible; }
+      .source-view { height: auto; overflow: visible; padding: 16px; }
+      .source-intro { grid-template-columns: 1fr; }
+      .source-work { grid-template-columns: 1fr; gap: 9px; }
+    }
+    @media (max-width: 560px) {
+      .tab-tools { flex-wrap: wrap; }
+      .source-entry { grid-template-columns: 1fr; gap: 7px; }
+      .source-page { justify-self: start; }
     }
   </style>
 </head>
@@ -480,12 +584,13 @@
   <script>
     /*
       AUDIT NOTE: Tres ensayos
-      - Práctico IV: cap. I puntos 4 y 5 + cap. II, pp. 148–154, 157–188. Fuente preferida: Libro 2 / 1.
-      - Seminario V: cap. III, punto 5, pp. 202–210. Fuente preferida: Libro 1.
+      - Práctico IV: cap. I puntos 4 y 5 + cap. II, pp. 148–154, 157–188. Fuente preferida: Apunte 2 / 1.
+      - Seminario V: cap. III, punto 5, pp. 202–210. Fuente preferida: Apunte 1.
       These are distinct fragments and must not share progress.
     */
     let readings = [];
     let guides = [];
+    let noteSources = [];
     // Se conserva la clave histórica para no perder el progreso de Módulos 3 y 4.
     const STORAGE_KEY = "freud-laznik-modulos-3-4-progress-v15";
     const LEGACY_KEYS = [
@@ -497,14 +602,17 @@
     ];
     const modules = ["Módulo 3", "Módulo 4", "Módulo 5", "Módulo 6"];
     const GUIDE_TAB = "Programa / Guías";
+    const SOURCE_TAB = "Apuntes";
     const blocks = ["Teóricos", "Prácticos", "Seminarios"];
     let activeModule = localStorage.getItem("freud-active-module") || "Módulo 3";
-    if (![...modules, GUIDE_TAB].includes(activeModule)) activeModule = "Módulo 3";
+    if (![...modules, GUIDE_TAB, SOURCE_TAB].includes(activeModule)) activeModule = "Módulo 3";
     let openCards = JSON.parse(localStorage.getItem("freud-open-cards") || "{}");
     let customOrder = JSON.parse(localStorage.getItem("freud-card-order-v1") || "{}");
     let draggedId = null;
     let hideRepeats = JSON.parse(localStorage.getItem("freud-hide-repeats") || "false");
     let hideRead = JSON.parse(localStorage.getItem("freud-hide-read") || "false");
+    let pageMode = localStorage.getItem("freud-page-source-mode") || "amorrortu";
+    if (!["amorrortu", "apuntes"].includes(pageMode)) pageMode = "amorrortu";
     let activeGuideTopic = localStorage.getItem("freud-active-guide-topic") || "";
     let guideOpen = JSON.parse(localStorage.getItem("freud-guide-open") || "{}");
     let searchQuery = "";
@@ -702,6 +810,11 @@
       const pct = Math.round((done / unique.length) * 100);
       document.getElementById("topProgress").innerHTML = `
         <span class="progress-pill">Progreso: <strong>${pct}%</strong></span>
+        <div class="page-mode" role="group" aria-label="Qué páginas mostrar">
+          <span class="page-mode-label">páginas</span>
+          <button class="page-mode-btn ${pageMode === "amorrortu" ? "active" : ""}" data-page-mode="amorrortu">Amorrortu</button>
+          <button class="page-mode-btn ${pageMode === "apuntes" ? "active" : ""}" data-page-mode="apuntes">Apuntes</button>
+        </div>
         <span class="reset-wrap"><button class="icon-btn" id="resetBtn" aria-label="Resetear progreso">↺</button><span class="reset-tip">Resetear progreso</span></span>
         <a class="github-link" href="https://github.com/javifernandes/psicoanalisis-freud-laznik-lectura-2do-parcial/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto en GitHub">
           <svg viewBox="0 0 16 16" aria-hidden="true">
@@ -709,6 +822,14 @@
           </svg>
         </a>
       `;
+      document.querySelectorAll("#topProgress [data-page-mode]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          pageMode = btn.dataset.pageMode;
+          localStorage.setItem("freud-page-source-mode", pageMode);
+          hideHelp();
+          render();
+        });
+      });
       document.getElementById("resetBtn").addEventListener("click", () => {
         if (confirm("¿Borrar el progreso guardado en este navegador?")) {
           localStorage.removeItem(STORAGE_KEY);
@@ -728,6 +849,7 @@
     function renderTabs() {
       const tabs = document.getElementById("tabs");
       const guideTopicCount = guides.reduce((sum, guide) => sum + guide.blocks.reduce((blockSum, block) => blockSum + block.topics.length, 0), 0);
+      const indexedEntryCount = noteSources.reduce((sum, source) => sum + (source.data?.entries.length || 0), 0);
       const moduleButtons = modules.map(m => {
         const moduleItems = readings.map((r, i) => ({...r, i})).filter(r => r.module === m);
         const unique = uniqueReadings(moduleItems);
@@ -739,20 +861,26 @@
       const guideButton = `<button class="tab ${GUIDE_TAB === activeModule ? 'active' : ''}" data-module="${GUIDE_TAB}">
         Programa / Guías<small>${guideTopicCount}</small>
       </button>`;
+      const sourceButton = `<button class="tab ${SOURCE_TAB === activeModule ? 'active' : ''}" data-module="${SOURCE_TAB}">
+        Apuntes<small>${indexedEntryCount}</small>
+      </button>`;
+      const isReadingTab = modules.includes(activeModule);
       const tools = activeModule === GUIDE_TAB ? "" : `
         <div class="tab-tools">
-          <input class="search" id="searchInput" value="${escapeHtml(searchQuery)}" placeholder="Buscar..." />
-          <label class="toggle" title="Oculta repeticiones exactas dentro del módulo">
-            <input type="checkbox" id="hideRepeats" ${hideRepeats ? "checked" : ""}>
-            ocultar repetidos
-          </label>
-          <label class="toggle" title="Oculta lecturas ya marcadas como leídas">
-            <input type="checkbox" id="hideRead" ${hideRead ? "checked" : ""}>
-            ocultar leído
-          </label>
+          <input class="search" id="searchInput" value="${escapeHtml(searchQuery)}" placeholder="${activeModule === SOURCE_TAB ? "Buscar texto o página..." : "Buscar..."}" />
+          ${isReadingTab ? `
+            <label class="toggle" title="Oculta repeticiones exactas dentro del módulo">
+              <input type="checkbox" id="hideRepeats" ${hideRepeats ? "checked" : ""}>
+              ocultar repetidos
+            </label>
+            <label class="toggle" title="Oculta lecturas ya marcadas como leídas">
+              <input type="checkbox" id="hideRead" ${hideRead ? "checked" : ""}>
+              ocultar leído
+            </label>
+          ` : ""}
         </div>
       `;
-      tabs.innerHTML = moduleButtons + guideButton + tools;
+      tabs.innerHTML = moduleButtons + guideButton + sourceButton + tools;
       tabs.querySelectorAll(".tab").forEach(btn => {
         btn.addEventListener("click", () => {
           saveColumnScroll();
@@ -799,6 +927,10 @@
         renderGuideView();
         return;
       }
+      if (activeModule === SOURCE_TAB) {
+        renderSourceIndexView();
+        return;
+      }
       const primaryIds = primaryIdsForModule(activeModule);
       let filtered = ordered(readings.map((r, i) => ({...r, i})).filter(r => r.module === activeModule));
       if (searchQuery.trim()) {
@@ -823,7 +955,7 @@
             <h2>
               <span class="column-title">${block}</span>
               <span class="dot-progress" title="${done}/${total} lecturas">${renderDots(primaryItems)}</span>
-              <span class="page-effort" title="Páginas leídas / páginas totales estimadas">${pages.done}/${pages.total}p</span>
+              <span class="page-effort" title="Páginas Amorrortu leídas / páginas Amorrortu totales estimadas">${pages.done}/${pages.total}p</span>
             </h2>
             <div class="column-body">
               ${items.length ? items.map(r => {
@@ -834,6 +966,8 @@
                 const duplicateText = isPrimaryDuplicate
                   ? `Esta lectura aparece ${r.duplicateCount} veces en el módulo. Esta es la primera aparición; el progreso se comparte con las demás.`
                   : `Esta lectura ya apareció antes en el módulo. El progreso se comparte con la primera tarjeta.`;
+                const sourceEntries = sourceEntriesForReading(r);
+                const sourceHelp = sourceLocationHelp(sourceEntries);
                 return `
                   <div class="reading ${checked ? 'done' : ''} ${open ? 'open' : ''} ${!isSecondaryDuplicate ? 'active-instance' : ''} ${isSecondaryDuplicate ? 'duplicate-secondary' : ''}" draggable="true" data-card-i="${r.i}">
                     <label class="check-wrap" title="Marcar como leído">
@@ -843,17 +977,19 @@
                     <div>
                       <div class="title" data-open-i="${r.i}"><span class="unit-prefix">${escapeHtml(r.unitDisplay || r.unitShort || r.unit)}:</span>${escapeHtml(r.title)} <span class="year">${escapeHtml(r.year)}</span></div>
                       <div class="bookline">
-                        <strong>${escapeHtml(r.sourceDisplay || r.canonicalBook || r.book)}</strong> · pp. ${escapeHtml(r.canonicalPages || r.pages)}
+                        ${renderCardLocation(r, sourceEntries)}
                         ${r.isDuplicateReading ? `<span class="dup-mark" data-help="${escapeHtml(duplicateText)}">${isPrimaryDuplicate ? "↔" : "↩"}</span>` : ""}
-                        ${(r.alsoIn || []).length ? `<span class="help" data-help="${escapeHtml(r.sourceHelp || r.canonicalReason || "Fuente canónica de lectura.")}">?</span>` : ""}
+                        ${(r.alsoIn || []).length ? `<span class="help" data-help="${escapeHtml(displayTerminology(r.sourceHelp || r.canonicalReason || "Fuente canónica de lectura."))}">?</span>` : ""}
+                        ${pageMode === "amorrortu" && sourceEntries.length ? `<span class="source-locator" data-help="${escapeHtml(sourceHelp)}">${escapeHtml(sourceInlineLocations(sourceEntries))}</span>` : ""}
                       </div>
                     </div>
                     <span class="drag-handle" title="Arrastrar para reordenar">⋮⋮</span>
                     <button class="expand-btn" data-open-i="${r.i}" title="Ver ejes de guía">›</button>
                     <div class="details">
                       ${r.guideNote ? `<div class="guide-note">${escapeHtml(r.guideNote)}</div>` : ''}
-                      ${r.notes ? `<div class="notes">${escapeHtml(r.notes)}</div>` : ''}
-                      ${r.warning ? `<div class="warning-note">⚠️ ${escapeHtml(r.warning)}</div>` : ''}
+                      ${r.notes ? `<div class="notes">${escapeHtml(displayTerminology(r.notes))}</div>` : ''}
+                      ${r.warning ? `<div class="warning-note">⚠️ ${escapeHtml(displayTerminology(r.warning))}</div>` : ''}
+                      ${renderReadingSourceLocations(sourceEntries)}
                       ${r.externalLink ? `<a class="external-link" href="${escapeHtml(r.externalLink)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.externalLabel || "Ver fuente")}</a>` : ''}
                     </div>
                   </div>
@@ -929,6 +1065,189 @@
         .trim()
         .replace(/\s+/g, " ");
     }
+    function displayTerminology(s) {
+      return String(s || "")
+        .replace(/\bLibros\b/g, "Apuntes")
+        .replace(/\blibros\b/g, "apuntes")
+        .replace(/\bLibro\b/g, "Apunte")
+        .replace(/\blibro\b/g, "apunte");
+    }
+    function sourceEntriesForReading(reading) {
+      const readingTitle = normalizeText(reading.title);
+      if (!readingTitle) return [];
+      return noteSources.flatMap((source, sourceOrder) => {
+        if (!source.data) return [];
+        const matchedWorkIds = new Set(source.data.works.filter(work => {
+          const aliases = work.matchTitles?.length ? work.matchTitles : [work.title];
+          return aliases.some(alias => {
+            const normalizedAlias = normalizeText(alias);
+            return normalizedAlias && (readingTitle.startsWith(normalizedAlias) || normalizedAlias.startsWith(readingTitle));
+          });
+        }).map(work => work.id));
+        return source.data.entries
+          .filter(entry => matchedWorkIds.has(entry.workId))
+          .map(entry => ({ ...entry, sourceId: source.id, sourceLabel: source.label, sourceOrder }));
+      }).sort((a, b) => a.sourceOrder - b.sourceOrder || a.startPage - b.startPage);
+    }
+    function sourceEntryGroups(entries) {
+      const groups = new Map();
+      entries.forEach(entry => {
+        if (!groups.has(entry.sourceId)) groups.set(entry.sourceId, { label: entry.sourceLabel, entries: [] });
+        groups.get(entry.sourceId).entries.push(entry);
+      });
+      return [...groups.values()];
+    }
+    function sourcePageList(entries) {
+      const pages = [...new Set(entries.map(entry => entry.startPage))];
+      return `${pages.length === 1 ? "p." : "pp."} ${pages.join(", ")}`;
+    }
+    function sourceInlineLocations(entries) {
+      return sourceEntryGroups(entries)
+        .map(group => `${group.label} · ${sourcePageList(group.entries)}`)
+        .join(" · ");
+    }
+    function sourceLocationHelp(entries) {
+      if (!entries.length) return "";
+      return `${sourceInlineLocations(entries)}. Son páginas de inicio según el índice manual; si hay varias, pueden ser duplicados o recortes diferentes. Verificá cuál corresponde.`;
+    }
+    function amorrortuLabelFor(reading) {
+      const source = String(reading.canonicalBook || reading.book || "");
+      return source.startsWith("Amorrortu") ? source : "Amorrortu";
+    }
+    function unindexedNoteLabelFor(reading) {
+      const sourceText = displayTerminology([
+        reading.sourceDisplay,
+        reading.canonicalBook,
+        reading.book,
+        ...(reading.alsoIn || [])
+      ].join(" "));
+      const labels = [...new Set(sourceText.match(/Apunte\s+\d+/g) || [])];
+      return labels.length ? labels.join(" / ") : "Apuntes";
+    }
+    function renderCardLocation(reading, entries) {
+      if (pageMode === "amorrortu") {
+        return `<strong>${escapeHtml(amorrortuLabelFor(reading))}</strong> · pp. ${escapeHtml(reading.canonicalPages || reading.pages)}`;
+      }
+      if (!entries.length) {
+        return `<strong>${escapeHtml(unindexedNoteLabelFor(reading))}</strong> · sin ubicación indexada`;
+      }
+      return sourceEntryGroups(entries).map(group =>
+        `<span><strong>${escapeHtml(group.label)}</strong> · ${escapeHtml(sourcePageList(group.entries))}</span>`
+      ).join(`<span class="source-location-extra"> · </span>`);
+    }
+    function renderReadingSourceLocations(entries) {
+      if (!entries.length) return "";
+      return `
+        <div class="source-locations">
+          <div class="source-locations-title">Dónde aparece en los apuntes</div>
+          <div class="source-locations-note">Coincidencia por título: un apunte puede repetir el texto o incluir otro recorte.</div>
+          ${entries.map(entry => `
+            <div class="source-location-row">
+              <span class="source-location-page">${escapeHtml(entry.sourceLabel)} · p. ${entry.startPage}</span>
+              <span>${escapeHtml(entry.label)}</span>
+              ${entry.amorrortuPages ? `<span class="source-location-extra">· Amorrortu pp. ${escapeHtml(entry.amorrortuPages)}</span>` : ""}
+              ${entry.note ? `<span class="source-location-extra">· ${escapeHtml(displayTerminology(entry.note))}</span>` : ""}
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+    function sourceViewData(source, query) {
+      const worksById = new Map(source.data.works.map(work => [work.id, work]));
+      const entries = source.data.entries
+        .map(entry => ({ ...entry, work: worksById.get(entry.workId) }))
+        .filter(entry => entry.work)
+        .filter(entry => {
+          if (!query) return true;
+          const searchable = normalizeText([
+            source.label,
+            `p ${entry.startPage}`,
+            entry.startPage,
+            entry.work.title,
+            ...(entry.work.matchTitles || []),
+            entry.label,
+            entry.amorrortuPages,
+            entry.note
+          ].join(" "));
+          return searchable.includes(query);
+        });
+      const grouped = new Map();
+      entries.forEach(entry => {
+        if (!grouped.has(entry.workId)) grouped.set(entry.workId, []);
+        grouped.get(entry.workId).push(entry);
+      });
+      const groups = [...grouped.entries()]
+        .map(([workId, workEntries]) => ({ work: worksById.get(workId), entries: workEntries }))
+        .sort((a, b) => a.entries[0].startPage - b.entries[0].startPage);
+      return { source, entries, groups };
+    }
+    function renderSourceIndexView() {
+      const app = document.getElementById("app");
+      const query = normalizeText(searchQuery);
+      const indexedSources = noteSources.filter(source => source.data);
+      const pendingSources = noteSources.filter(source => !source.data);
+      const sourceResults = indexedSources.map(source => sourceViewData(source, query));
+      const totalEntries = indexedSources.reduce((sum, source) => sum + source.data.entries.length, 0);
+      const uniqueWorks = new Set(indexedSources.flatMap(source => source.data.works.map(work => normalizeText(work.title))));
+      const visibleEntries = sourceResults.reduce((sum, result) => sum + result.entries.length, 0);
+      const visibleWorks = sourceResults.reduce((sum, result) => sum + result.groups.length, 0);
+      const caveats = [...new Set(indexedSources.flatMap(source => source.data.caveats || []))];
+      const resultSummary = query
+        ? `${visibleEntries} ${visibleEntries === 1 ? "aparición encontrada" : "apariciones encontradas"} en ${visibleWorks} ${visibleWorks === 1 ? "texto" : "textos"}`
+        : "Todas las apariciones, agrupadas por apunte y ordenadas por su primera página";
+      const renderWorkGroups = groups => groups.map(({work, entries}) => `
+        <article class="source-work">
+          <div>
+            <h4 class="source-work-title">${escapeHtml(work.title)}</h4>
+            <div class="source-count">${entries.length === 1 ? "1 aparición" : `${entries.length} apariciones`}</div>
+          </div>
+          <div>
+            ${entries.map(entry => `
+              <div class="source-entry">
+                <span class="source-page">p. ${entry.startPage}</span>
+                <div>
+                  <div class="source-entry-label">${escapeHtml(entry.label)}</div>
+                  ${entry.amorrortuPages ? `<div class="source-entry-meta">Amorrortu pp. ${escapeHtml(entry.amorrortuPages)}</div>` : `<div class="source-entry-meta">Sin páginas Amorrortu relevadas</div>`}
+                  ${entry.note ? `<div class="source-entry-note">${escapeHtml(displayTerminology(entry.note))}</div>` : ""}
+                </div>
+              </div>
+            `).join("")}
+          </div>
+        </article>
+      `).join("");
+      app.innerHTML = `
+        <section class="source-view">
+          <div class="source-intro">
+            <div>
+              <div class="source-kicker">Ubicación física</div>
+              <h2>Índices de apuntes</h2>
+              <p>Usá estos índices para encontrar dónde empieza cada texto en los apuntes. Las páginas Amorrortu siguen definiendo el fragmento pedido por la cátedra.</p>
+              <div class="source-stats">
+                <span class="source-stat"><strong>${totalEntries}</strong> apariciones</span>
+                <span class="source-stat"><strong>${uniqueWorks.size}</strong> textos</span>
+                <span class="source-stat"><strong>${indexedSources.length}</strong> ${indexedSources.length === 1 ? "apunte indexado" : "apuntes indexados"}</span>
+              </div>
+              ${pendingSources.length ? `<div class="source-pending-list">${pendingSources.map(source => `<span class="source-pending"><strong>${escapeHtml(source.label)}</strong> ${escapeHtml(source.description || "Índice todavía no relevado.")}</span>`).join("")}</div>` : ""}
+            </div>
+            <ul class="source-caveats">
+              ${caveats.map(caveat => `<li>${escapeHtml(displayTerminology(caveat))}</li>`).join("")}
+            </ul>
+          </div>
+          <div class="source-results">
+            <div class="source-results-summary">${resultSummary}</div>
+            ${visibleEntries ? sourceResults.filter(result => result.groups.length).map(result => `
+              <section class="source-index-section">
+                <div class="source-index-heading">
+                  <h3>${escapeHtml(result.source.label)}</h3>
+                  <span>${result.entries.length === 1 ? "1 aparición" : `${result.entries.length} apariciones`}</span>
+                </div>
+                ${renderWorkGroups(result.groups)}
+              </section>
+            `).join("") : `<div class="empty">No hay coincidencias para “${escapeHtml(searchQuery)}”.</div>`}
+          </div>
+        </section>
+      `;
+    }
     function findLinkedReadings(topic, moduleName) {
       const refs = topic.readingRefs || [];
       const matches = [];
@@ -1002,6 +1321,7 @@
               <p class="guide-section-title">Lecturas vinculadas ${linked.length ? `(${linkedDone}/${linked.length})` : ""}</p>
               ${linked.length ? linked.map(r => {
                 const checked = isChecked(r, r.i);
+                const sourceEntries = sourceEntriesForReading(r);
                 return `
                   <div class="linked-reading ${checked ? 'done' : ''}">
                     <label class="check-wrap" title="Marcar como leído">
@@ -1010,8 +1330,9 @@
                     </label>
                     <div>
                       <div class="linked-title">${escapeHtml(r.title)} <span class="year">${escapeHtml(r.year)}</span></div>
-                      <div class="linked-meta">${escapeHtml(r.module)} · ${escapeHtml(r.block)} · ${escapeHtml(r.unitDisplay || r.unitShort || r.unit)} · ${escapeHtml(r.sourceDisplay || r.canonicalBook || r.book)} · pp. ${escapeHtml(r.canonicalPages || r.pages)}</div>
-                      ${r.warning ? `<div class="warning-note">⚠️ ${escapeHtml(r.warning)}</div>` : ""}
+                      <div class="linked-meta">${escapeHtml(r.module)} · ${escapeHtml(r.block)} · ${escapeHtml(r.unitDisplay || r.unitShort || r.unit)} · ${escapeHtml(amorrortuLabelFor(r))} · pp. ${escapeHtml(r.canonicalPages || r.pages)}</div>
+                      ${sourceEntries.length ? `<div class="linked-source-locations">${escapeHtml(sourceInlineLocations(sourceEntries))} <span class="source-location-extra">(coincidencia por título)</span></div>` : ""}
+                      ${r.warning ? `<div class="warning-note">⚠️ ${escapeHtml(displayTerminology(r.warning))}</div>` : ""}
                     </div>
                     <div class="linked-state">${checked ? "leído" : "pendiente"}</div>
                   </div>
@@ -1068,15 +1389,16 @@
       return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;'}[m]));
     }
     document.addEventListener("click", e => {
-      if (!e.target.closest(".help") && !e.target.closest(".dup-mark") && !e.target.closest("#helpBubble")) hideHelp();
+      if (!e.target.closest(".help") && !e.target.closest(".dup-mark") && !e.target.closest(".source-locator") && !e.target.closest("#helpBubble")) hideHelp();
     });
     async function loadData() {
-      const [readingsRes, module3Res, module4Res, module5Res, module6Res] = await Promise.all([
+      const [readingsRes, module3Res, module4Res, module5Res, module6Res, sourceCatalogRes] = await Promise.all([
         fetch("./data/readings.json"),
         fetch("./data/guides/module3.json"),
         fetch("./data/guides/module4.json"),
         fetch("./data/guides/module5.json"),
-        fetch("./data/guides/module6.json")
+        fetch("./data/guides/module6.json"),
+        fetch("./data/sources/index.json")
       ]);
       readings = await readingsRes.json();
       guides = [
@@ -1085,6 +1407,12 @@
         await module5Res.json(),
         await module6Res.json()
       ];
+      const sourceCatalog = await sourceCatalogRes.json();
+      noteSources = await Promise.all(sourceCatalog.sources.map(async source => {
+        if (!source.dataFile) return { ...source, data: null };
+        const response = await fetch(`./data/sources/${source.dataFile}`);
+        return { ...source, data: await response.json() };
+      }));
     }
     async function initApp() {
       try {

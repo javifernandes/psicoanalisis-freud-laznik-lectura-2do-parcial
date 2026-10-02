@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "apunte-1",
+      "label": "Apunte 1",
+      "status": "pending",
+      "description": "Índice todavía no relevado."
+    },
+    {
+      "id": "apunte-2",
+      "label": "Apunte 2",
+      "status": "indexed",
+      "dataFile": "apunte2.json"
+    }
+  ]
+}
